@@ -87,10 +87,26 @@
             }
         },
         {
+            "Key": "49a7698f-87d8-4390-85de-0ede4fbd96b8",
+            "Value": {
+                "id": "fa787bfc-56f6-4cce-a535-92b9de929139",
+                "resourcePath": "objects\\Exit_Door\\Exit_Door.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6e2bb3f2-be54-40f6-981b-19698738b8e1",
             "Value": {
                 "id": "d7b60f77-e9ce-40bd-9c53-4e7f5a3570ab",
-                "resourcePath": "sprites\\Laurel_Player_sprite\\Laurel_Player_sprite.yy",
+                "resourcePath": "sprites\\Gold_Player_sprite\\Gold_Player_sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "77872475-5b42-4925-a829-19520948536f",
+            "Value": {
+                "id": "749bcdde-c31b-46f5-9e2e-5b1628fa77a1",
+                "resourcePath": "sprites\\Exit\\Exit.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -167,6 +183,14 @@
             }
         },
         {
+            "Key": "ac9aff92-57b1-495e-8a5b-cc9c749f1c73",
+            "Value": {
+                "id": "1f6339d2-504a-4a8c-85e6-d56c213a299c",
+                "resourcePath": "sprites\\checkpoint\\checkpoint.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b67ea38f-7be3-422a-9a95-61cb33c1c55c",
             "Value": {
                 "id": "f2c45aef-ea15-4e47-a400-5d044a7ec9e6",
@@ -228,6 +252,14 @@
                 "id": "a252e32c-8738-46db-9467-a5b357410eb2",
                 "resourcePath": "views\\ef96614a-24ae-4283-9c82-0881ff911213.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f7852129-a427-4c6c-9849-e2e1306233be",
+            "Value": {
+                "id": "a944a3b7-7950-47f8-86b5-5b5b0de9fdbe",
+                "resourcePath": "objects\\checkpoint_flag\\checkpoint_flag.yy",
+                "resourceType": "GMObject"
             }
         },
         {
