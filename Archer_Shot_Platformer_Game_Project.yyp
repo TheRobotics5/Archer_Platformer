@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "3007df43-f1ca-4839-babc-26bd3591624d",
+            "Value": {
+                "id": "7cb233dd-a115-46dd-919a-731b89780307",
+                "resourcePath": "sprites\\Rock\\Rock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "347d9bc3-f667-4160-b73d-f4e14d77bb69",
             "Value": {
                 "id": "5d030028-0de3-44c7-b243-5428910e35eb",
