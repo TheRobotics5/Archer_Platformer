@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "powerup_object",
     "eventList": [
-        
+        {
+            "id": "14bc04d4-33dc-4784-962f-9b94db1d063e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "d2887ec0-2928-4342-b6a6-967174774897"
+        },
+        {
+            "id": "3d338bf0-75b5-437f-a5be-e673760cf134",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "7ebaba8b-f3ea-478d-81d1-b22e2259dc62",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "d2887ec0-2928-4342-b6a6-967174774897"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
