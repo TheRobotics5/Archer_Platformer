@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1d422877-c499-4f77-8eed-2983d79cdf82",
+            "Value": {
+                "id": "07b21f88-4e91-4f7a-b288-80f7b157e540",
+                "resourcePath": "objects\\gold_powerup\\gold_powerup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3007df43-f1ca-4839-babc-26bd3591624d",
             "Value": {
                 "id": "7cb233dd-a115-46dd-919a-731b89780307",
@@ -90,7 +98,7 @@
             "Key": "439f2110-0a4c-4563-93b7-8dce4548c5df",
             "Value": {
                 "id": "3954b842-72cb-4339-884a-c6c850a66050",
-                "resourcePath": "sprites\\ground_sprite\\ground_sprite.yy",
+                "resourcePath": "sprites\\blocks\\blocks.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -167,19 +175,19 @@
             }
         },
         {
-            "Key": "971a6e13-71cc-4e7f-950a-578c9b9f053c",
-            "Value": {
-                "id": "a2740715-f6b4-4db1-80c9-1a9cec758767",
-                "resourcePath": "sprites\\wall\\wall.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "9e935e6a-5860-4c87-b684-310dbfd907fc",
             "Value": {
                 "id": "8d66d65c-2f33-4197-9c6a-a2d25a5e9cc7",
                 "resourcePath": "views\\9e935e6a-5860-4c87-b684-310dbfd907fc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a4d2ec44-8793-463f-8149-202b591e5ad5",
+            "Value": {
+                "id": "f57b08e3-3629-46a6-880e-00dd12015479",
+                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -204,6 +212,14 @@
                 "id": "f2c45aef-ea15-4e47-a400-5d044a7ec9e6",
                 "resourcePath": "views\\b67ea38f-7be3-422a-9a95-61cb33c1c55c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bd4ea6c6-9bf3-43a7-a4fe-8728d41f7e75",
+            "Value": {
+                "id": "a88c220e-02a2-4176-9741-8cb378f79350",
+                "resourcePath": "sprites\\block\\block.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -242,7 +258,7 @@
             "Key": "d2887ec0-2928-4342-b6a6-967174774897",
             "Value": {
                 "id": "34ca1dab-ac27-4c40-9149-3f57acf0b45f",
-                "resourcePath": "objects\\powerup_object\\powerup_object.yy",
+                "resourcePath": "objects\\blue_powerup\\blue_powerup.yy",
                 "resourceType": "GMObject"
             }
         },
