@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "4e3eb25d-c84e-4897-9c91-829a32170344",
+            "Value": {
+                "id": "11e7d03b-3f65-4309-a7bd-123b8461cd31",
+                "resourcePath": "objects\\danger\\danger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6e2bb3f2-be54-40f6-981b-19698738b8e1",
             "Value": {
                 "id": "d7b60f77-e9ce-40bd-9c53-4e7f5a3570ab",
@@ -127,18 +135,18 @@
             }
         },
         {
+            "Key": "79d8a7a0-71dc-483c-84d5-8a60b6529bca",
+            "Value": {
+                "id": "83bbfdb9-ed9c-41c2-881b-4ed79d0ed242",
+                "resourcePath": "rooms\\Game_Over\\Game_Over.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7ebaba8b-f3ea-478d-81d1-b22e2259dc62",
             "Value": {
                 "id": "72a315eb-f006-4715-8a24-47328e7288ea",
                 "resourcePath": "objects\\Archer\\Archer.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "7f776976-7f06-494c-8c64-762988d38257",
-            "Value": {
-                "id": "92f1db9f-ea98-44fa-bf42-f08b03cc205f",
-                "resourcePath": "objects\\ground\\ground.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -266,7 +274,7 @@
             "Key": "e0010c69-c1ce-4717-bd9d-05806a2469c1",
             "Value": {
                 "id": "6b49d9a3-43a2-4ab6-a2bf-6b30f6b5693b",
-                "resourcePath": "rooms\\Start\\Start.yy",
+                "resourcePath": "rooms\\Game\\Game.yy",
                 "resourceType": "GMRoom"
             }
         },

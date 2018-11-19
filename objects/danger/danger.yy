@@ -1,8 +1,8 @@
 {
-    "id": "7f776976-7f06-494c-8c64-762988d38257",
+    "id": "4e3eb25d-c84e-4897-9c91-829a32170344",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ground",
+    "name": "danger",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "439f2110-0a4c-4563-93b7-8dce4548c5df",
-    "visible": true
+    "spriteId": "bd4ea6c6-9bf3-43a7-a4fe-8728d41f7e75",
+    "visible": false
 }
