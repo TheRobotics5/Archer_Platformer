@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "07084529-e27c-4893-85f3-80921377488b",
+            "Value": {
+                "id": "82531eda-30df-4473-ac27-54f5fd9ed6bd",
+                "resourcePath": "sprites\\Basic_Enemy\\Basic_Enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "125c1a40-1964-44d2-bd7d-90b308ea9075",
             "Value": {
                 "id": "dcddb220-57fd-4b6f-9872-e52ec6bc4d17",
@@ -79,10 +87,10 @@
             }
         },
         {
-            "Key": "3007df43-f1ca-4839-babc-26bd3591624d",
+            "Key": "1f12b462-7116-40a7-8691-8cfd67983070",
             "Value": {
-                "id": "7cb233dd-a115-46dd-919a-731b89780307",
-                "resourcePath": "sprites\\Rock\\Rock.yy",
+                "id": "1299056e-221c-4ca7-abce-89e481b8f02e",
+                "resourcePath": "sprites\\Medium_Enemy\\Medium_Enemy.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -103,10 +111,10 @@
             }
         },
         {
-            "Key": "49a7698f-87d8-4390-85de-0ede4fbd96b8",
+            "Key": "4b727a6a-02c8-492b-a3e7-2df554e52feb",
             "Value": {
-                "id": "fa787bfc-56f6-4cce-a535-92b9de929139",
-                "resourcePath": "objects\\Exit_Door\\Exit_Door.yy",
+                "id": "9193690e-aa3e-4550-b209-9d5c37806076",
+                "resourcePath": "objects\\Enemy_Archer\\Enemy_Archer.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -123,14 +131,6 @@
             "Value": {
                 "id": "d7b60f77-e9ce-40bd-9c53-4e7f5a3570ab",
                 "resourcePath": "sprites\\Gold_Player_sprite\\Gold_Player_sprite.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "77872475-5b42-4925-a829-19520948536f",
-            "Value": {
-                "id": "749bcdde-c31b-46f5-9e2e-5b1628fa77a1",
-                "resourcePath": "sprites\\Exit\\Exit.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -194,7 +194,7 @@
             "Key": "a4d2ec44-8793-463f-8149-202b591e5ad5",
             "Value": {
                 "id": "f57b08e3-3629-46a6-880e-00dd12015479",
-                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourcePath": "tilesets\\block_set\\block_set.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "c90987d2-6854-4be5-b493-b68005f150a1",
+            "Value": {
+                "id": "cccef929-5256-4f27-8090-ae7f40248e90",
+                "resourcePath": "sprites\\Hard_Enemy\\Hard_Enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "f46db0a9-7122-4e91-9e88-1cb82ba9c902",
@@ -276,6 +284,22 @@
                 "id": "6b49d9a3-43a2-4ab6-a2bf-6b30f6b5693b",
                 "resourcePath": "rooms\\Game\\Game.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e2db0159-b0f6-40e3-936e-12de9345035d",
+            "Value": {
+                "id": "bb6c8b94-b23f-4648-abef-6578cbf23ca9",
+                "resourcePath": "objects\\Scout\\Scout.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ed15aa01-c8a7-414a-a50d-3102fe8fbaf0",
+            "Value": {
+                "id": "1b7576a8-57d2-4b3d-a9dd-98d47db10e7c",
+                "resourcePath": "objects\\Knight\\Knight.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -308,6 +332,14 @@
                 "id": "2df54351-ee4d-4a88-8b62-69b3ff686e48",
                 "resourcePath": "views\\f81b4de7-f96e-49dc-8c6c-5786c8d34520.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fd090185-1b22-41d4-a74b-3363636223da",
+            "Value": {
+                "id": "b2570207-b6cd-4ff7-808c-b3ff992f609b",
+                "resourcePath": "sprites\\Enemy_Arrow\\Enemy_Arrow.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

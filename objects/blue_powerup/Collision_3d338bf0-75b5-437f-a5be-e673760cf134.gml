@@ -20,6 +20,17 @@ movespeed = 8;
 
 }
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 02698BC3
+/// @DnDApplyTo : all
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "powered"
+with(all) {
+powered = 1;
+
+}
+
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 3F4BED87

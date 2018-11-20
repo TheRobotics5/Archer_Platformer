@@ -1,3 +1,25 @@
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 14F71549
+/// @DnDArgument : "var" "powered"
+/// @DnDArgument : "value" "1"
+if(powered == 1)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 6FFA7DDE
+	/// @DnDParent : 14F71549
+	/// @DnDArgument : "steps" "95"
+	/// @DnDArgument : "alarm" "1"
+	alarm_set(1, 95);
+
+	/// @DnDAction : YoYo Games.Common.Exit_Event
+	/// @DnDVersion : 1
+	/// @DnDHash : 5761C0ED
+	/// @DnDParent : 14F71549
+	exit;
+}
+
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 0A1F705C

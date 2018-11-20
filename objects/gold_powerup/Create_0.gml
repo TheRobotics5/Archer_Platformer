@@ -10,3 +10,9 @@ image_index = 1;
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "exsists"
 exsists = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 033FC3A0
+/// @DnDArgument : "var" "powered"
+powered = 0;
