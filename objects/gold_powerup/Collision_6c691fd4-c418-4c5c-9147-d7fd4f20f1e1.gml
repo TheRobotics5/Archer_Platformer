@@ -40,8 +40,8 @@ if(exsists == 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 19F65381
 	/// @DnDParent : 2CB83B1A
-	/// @DnDArgument : "steps" "250"
-	alarm_set(0, 250);
+	/// @DnDArgument : "steps" "180"
+	alarm_set(0, 180);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

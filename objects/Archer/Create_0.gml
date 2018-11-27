@@ -15,3 +15,23 @@ movespeed = 8;
 
 image_index = 0;
 image_speed = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7432466E
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "facing"
+facing = 1;
+
+/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
+/// @DnDVersion : 1
+/// @DnDHash : 3A49328A
+/// @DnDArgument : "target" "checkpoint_x"
+checkpoint_x = x;
+
+/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
+/// @DnDVersion : 1
+/// @DnDHash : 7B74FE6A
+/// @DnDArgument : "target" "checkpoint_y"
+/// @DnDArgument : "instvar" "1"
+checkpoint_y = y;
