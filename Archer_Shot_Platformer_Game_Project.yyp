@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "256a72d9-f009-4b16-8cc8-9430e894a901",
+            "Value": {
+                "id": "5cc7c02f-b9cf-4a61-8a55-2e0e7fedc3dc",
+                "resourcePath": "timelines\\Grapple\\Grapple.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "27dbc897-a694-4f83-93d6-3541fe17ec31",
             "Value": {
                 "id": "cad95e01-e5ee-408c-bf23-8791cffb23ae",

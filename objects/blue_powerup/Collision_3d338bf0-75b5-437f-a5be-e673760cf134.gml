@@ -20,11 +20,27 @@ movespeed = 8;
 
 }
 
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 3A6CF97E
+/// @DnDApplyTo : 7ebaba8b-f3ea-478d-81d1-b22e2259dc62
+/// @DnDArgument : "code" "grav = 0.4;$(13_10)jumpspeed = 11;"
+with(Archer) {
+grav = 0.4;
+jumpspeed = 11;
+}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 72EA0513
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)"
+/// @description Execute Code
+
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 7E75F8B6
-/// @DnDArgument : "steps" "infinite"
-alarm_set(0, infinite);
+/// @DnDArgument : "steps" "999999999999"
+alarm_set(0, 999999999999);
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1

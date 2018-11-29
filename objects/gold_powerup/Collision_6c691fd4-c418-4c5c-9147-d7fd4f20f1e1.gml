@@ -29,6 +29,17 @@ if(exsists == 1)
 	
 	}
 
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 7ED21AD4
+	/// @DnDApplyTo : 7ebaba8b-f3ea-478d-81d1-b22e2259dc62
+	/// @DnDParent : 2CB83B1A
+	/// @DnDArgument : "code" "grav = 0.7;$(13_10)jumpspeed = 14;"
+	with(Archer) {
+	grav = 0.7;
+	jumpspeed = 14;
+	}
+
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 5920FA13
@@ -40,8 +51,8 @@ if(exsists == 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 19F65381
 	/// @DnDParent : 2CB83B1A
-	/// @DnDArgument : "steps" "180"
-	alarm_set(0, 180);
+	/// @DnDArgument : "steps" "340"
+	alarm_set(0, 340);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

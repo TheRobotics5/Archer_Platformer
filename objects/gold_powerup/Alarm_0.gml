@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 33A079FC
+/// @DnDArgument : "var" "gold"
+global.gold = 0;
+
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 0A1F705C
