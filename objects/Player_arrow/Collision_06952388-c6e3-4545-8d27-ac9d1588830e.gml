@@ -6,6 +6,6 @@ direction = 0;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
-/// @DnDHash : 698A830A
-/// @DnDArgument : "steps" "1"
-alarm_set(0, 1);
+/// @DnDHash : 1A99EC4E
+/// @DnDArgument : "steps" "2"
+alarm_set(0, 2);
