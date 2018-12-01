@@ -46,6 +46,16 @@ if (place_meeting (x,y+vsp,wall_object))
 x += hsp;
 y += vsp;
 
+/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
+/// @DnDVersion : 1
+/// @DnDHash : 797D4AD2
+/// @DnDInput : 2
+/// @DnDArgument : "target" "archer_x"
+/// @DnDArgument : "target_1" "archer_y"
+/// @DnDArgument : "instvar_1" "1"
+archer_x = x;
+archer_y = y;
+
 /// @DnDAction : YoYo Games.Common.Get_Global
 /// @DnDVersion : 1
 /// @DnDHash : 41407093
@@ -67,14 +77,22 @@ archer_grapple_y = global.grapple_y;
 /// @DnDArgument : "value" "1"
 if(archer_grappled == 1)
 {
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 2CD159DC
+	/// @DnDDisabled : 1
+	/// @DnDParent : 20795D05
+	/// @DnDArgument : "code" "hsp = sign(cos(archer_grapple_x)*(archer_grapple_x-archer_x));$(13_10)vsp = sign(sin(archer_grapple_y)*(archer_grapple_y-archer_y));"
+
+
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
-	/// @DnDHash : 47F121C6
+	/// @DnDHash : 1E1C3538
 	/// @DnDParent : 20795D05
 	/// @DnDArgument : "x" "archer_grapple_x"
-	/// @DnDArgument : "y" "(archer_grapple_y)+200"
+	/// @DnDArgument : "y" "archer_grapple_y"
 	x = archer_grapple_x;
-	y = (archer_grapple_y)+200;
+	y = archer_grapple_y;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

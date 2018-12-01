@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "90453080-7e32-4e42-ac6d-3233df41ed72",
+            "Value": {
+                "id": "a92a0937-de6b-442d-a227-86aeb54b125a",
+                "resourcePath": "sprites\\coins\\coins.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9e935e6a-5860-4c87-b684-310dbfd907fc",
             "Value": {
                 "id": "8d66d65c-2f33-4197-9c6a-a2d25a5e9cc7",
@@ -335,6 +343,14 @@
             }
         },
         {
+            "Key": "d489b65f-ba1b-41d4-9855-3144c91b046e",
+            "Value": {
+                "id": "e8cc7cc3-7b32-4d9d-8c77-f3449c43135d",
+                "resourcePath": "objects\\coin\\coin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e0010c69-c1ce-4717-bd9d-05806a2469c1",
             "Value": {
                 "id": "6b49d9a3-43a2-4ab6-a2bf-6b30f6b5693b",
@@ -380,6 +396,14 @@
                 "id": "a252e32c-8738-46db-9467-a5b357410eb2",
                 "resourcePath": "views\\ef96614a-24ae-4283-9c82-0881ff911213.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f0ffa4b7-3cb6-492b-8abf-ebb5071e6ed9",
+            "Value": {
+                "id": "0e21670d-417c-4301-aa77-3c5a85591faa",
+                "resourcePath": "objects\\scoreboard\\scoreboard.yy",
+                "resourceType": "GMObject"
             }
         },
         {
