@@ -7,8 +7,8 @@ direction = 0;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 4207D941
-/// @DnDArgument : "code" "image_xscale = -8;"
-image_xscale = -8;
+/// @DnDArgument : "code" "image_xscale = -4;"
+image_xscale = -4;
 
 /// @DnDAction : YoYo Games.Movement.Reverse
 /// @DnDVersion : 1

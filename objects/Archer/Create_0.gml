@@ -35,16 +35,16 @@ checkpoint_y = y;
 /// @DnDVersion : 1
 /// @DnDHash : 35476869
 /// @DnDInput : 6
-/// @DnDArgument : "value_5" "1"
+/// @DnDArgument : "value_2" "1"
 /// @DnDArgument : "var" "lightning"
 /// @DnDArgument : "var_1" "gold"
-/// @DnDArgument : "var_2" "grappled"
-/// @DnDArgument : "var_3" "grapple_x"
-/// @DnDArgument : "var_4" "grapple_y"
-/// @DnDArgument : "var_5" "cooldown"
+/// @DnDArgument : "var_2" "cooldown"
+/// @DnDArgument : "var_3" "grappled_x"
+/// @DnDArgument : "var_4" "grappled_y"
+/// @DnDArgument : "var_5" "grappled"
 global.lightning = 0;
 global.gold = 0;
-global.grappled = 0;
-global.grapple_x = 0;
-global.grapple_y = 0;
 global.cooldown = 1;
+global.grappled_x = 0;
+global.grappled_y = 0;
+global.grappled = 0;

@@ -37,10 +37,3 @@ with(Archer) {
 
 y += -2;
 }
-
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
-/// @DnDVersion : 1
-/// @DnDHash : 5CA7845F
-/// @DnDArgument : "steps" "95"
-/// @DnDArgument : "alarm" "1"
-alarm_set(1, 95);

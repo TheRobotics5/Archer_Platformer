@@ -46,58 +46,48 @@ if (place_meeting (x,y+vsp,wall_object))
 x += hsp;
 y += vsp;
 
-/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
-/// @DnDVersion : 1
-/// @DnDHash : 797D4AD2
-/// @DnDInput : 2
-/// @DnDArgument : "target" "archer_x"
-/// @DnDArgument : "target_1" "archer_y"
-/// @DnDArgument : "instvar_1" "1"
-archer_x = x;
-archer_y = y;
-
 /// @DnDAction : YoYo Games.Common.Get_Global
 /// @DnDVersion : 1
-/// @DnDHash : 41407093
-/// @DnDInput : 3
-/// @DnDArgument : "output" "archer_grappled"
-/// @DnDArgument : "output_1" "archer_grapple_x"
-/// @DnDArgument : "output_2" "archer_grapple_y"
+/// @DnDHash : 236A0F24
+/// @DnDArgument : "output" "grappled"
 /// @DnDArgument : "var" "grappled"
-/// @DnDArgument : "var_1" "grapple_x"
-/// @DnDArgument : "var_2" "grapple_y"
-archer_grappled = global.grappled;
-archer_grapple_x = global.grapple_x;
-archer_grapple_y = global.grapple_y;
+grappled = global.grappled;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 20795D05
-/// @DnDArgument : "var" "archer_grappled"
+/// @DnDHash : 36C24DAC
+/// @DnDArgument : "var" "grappled"
 /// @DnDArgument : "value" "1"
-if(archer_grappled == 1)
+if(grappled == 1)
 {
-	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDAction : YoYo Games.Common.Get_Global
 	/// @DnDVersion : 1
-	/// @DnDHash : 2CD159DC
-	/// @DnDDisabled : 1
-	/// @DnDParent : 20795D05
-	/// @DnDArgument : "code" "hsp = sign(cos(archer_grapple_x)*(archer_grapple_x-archer_x));$(13_10)vsp = sign(sin(archer_grapple_y)*(archer_grapple_y-archer_y));"
-
+	/// @DnDHash : 1C94EB10
+	/// @DnDInput : 2
+	/// @DnDParent : 36C24DAC
+	/// @DnDArgument : "output" "grapple_x"
+	/// @DnDArgument : "output_1" "grapple_y"
+	/// @DnDArgument : "var" "grappled_x"
+	/// @DnDArgument : "var_1" "grappled_y"
+	grapple_x = global.grappled_x;
+	grapple_y = global.grappled_y;
 
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
-	/// @DnDHash : 1E1C3538
-	/// @DnDParent : 20795D05
-	/// @DnDArgument : "x" "archer_grapple_x"
-	/// @DnDArgument : "y" "archer_grapple_y"
-	x = archer_grapple_x;
-	y = archer_grapple_y;
+	/// @DnDHash : 2519BC18
+	/// @DnDApplyTo : 7ebaba8b-f3ea-478d-81d1-b22e2259dc62
+	/// @DnDParent : 36C24DAC
+	/// @DnDArgument : "x" "grapple_x"
+	/// @DnDArgument : "y" "(grapple_y)+50"
+	with(Archer) {
+	x = grapple_x;
+	y = (grapple_y)+50;
+	}
 
-	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
-	/// @DnDHash : 62AE1936
-	/// @DnDParent : 20795D05
-	/// @DnDArgument : "var" "archer_grappled"
-	archer_grappled = 0;
+	/// @DnDHash : 342B7D77
+	/// @DnDParent : 36C24DAC
+	/// @DnDArgument : "var" "grappled"
+	global.grappled = 0;
 }
