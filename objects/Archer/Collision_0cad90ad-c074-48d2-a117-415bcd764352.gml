@@ -10,3 +10,9 @@ global.lightning = 1;
 /// @DnDHash : 5954648C
 /// @DnDArgument : "var" "gold"
 global.gold = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 5EE64754
+/// @DnDArgument : "var" "tele"
+global.tele = 0;

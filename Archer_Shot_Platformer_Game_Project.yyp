@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "6146cdaf-3162-4cb8-8a5d-ecab704e6bbc",
+            "Value": {
+                "id": "cc555471-aab0-49c5-bd3b-bd37c74c13c7",
+                "resourcePath": "objects\\Teleport_powerup\\Teleport_powerup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6e2bb3f2-be54-40f6-981b-19698738b8e1",
             "Value": {
                 "id": "d7b60f77-e9ce-40bd-9c53-4e7f5a3570ab",
@@ -315,6 +323,14 @@
             "Value": {
                 "id": "5419555d-c827-4758-950d-a14246548682",
                 "resourcePath": "sprites\\Archer_Player_Sprite\\Archer_Player_Sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c5e55db2-7911-4a9f-8c44-999c26933424",
+            "Value": {
+                "id": "cc377df5-8b86-4195-bceb-48498ac62e34",
+                "resourcePath": "sprites\\Mobility\\Mobility.yy",
                 "resourceType": "GMSprite"
             }
         },

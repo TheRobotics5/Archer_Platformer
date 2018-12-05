@@ -1,13 +1,16 @@
 /// @DnDAction : YoYo Games.Common.Get_Global
 /// @DnDVersion : 1
 /// @DnDHash : 4D74A3E4
-/// @DnDInput : 2
-/// @DnDArgument : "output" "gold_powered"
+/// @DnDInput : 3
+/// @DnDArgument : "output" "tele_powered"
 /// @DnDArgument : "output_1" "lightning_powered"
-/// @DnDArgument : "var" "gold"
+/// @DnDArgument : "output_2" "gold_powered"
+/// @DnDArgument : "var" "tele"
 /// @DnDArgument : "var_1" "lightning"
-gold_powered = global.gold;
+/// @DnDArgument : "var_2" "gold"
+tele_powered = global.tele;
 lightning_powered = global.lightning;
+gold_powered = global.gold;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -19,8 +22,8 @@ if(lightning_powered == 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 2F5B568F
 	/// @DnDParent : 7DB7F8A8
-	/// @DnDArgument : "var" "gold_powered"
-	if(gold_powered == 0)
+	/// @DnDArgument : "var" "tele_powered"
+	if(tele_powered == 0)
 	{
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -143,9 +146,9 @@ if(lightning_powered == 1)
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7C3377A0
-/// @DnDArgument : "var" "gold_powered"
+/// @DnDArgument : "var" "tele_powered"
 /// @DnDArgument : "value" "1"
-if(gold_powered == 1)
+if(tele_powered == 1)
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

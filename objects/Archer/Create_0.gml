@@ -34,7 +34,7 @@ checkpoint_y = y;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 35476869
-/// @DnDInput : 6
+/// @DnDInput : 7
 /// @DnDArgument : "value_2" "1"
 /// @DnDArgument : "var" "lightning"
 /// @DnDArgument : "var_1" "gold"
@@ -42,9 +42,11 @@ checkpoint_y = y;
 /// @DnDArgument : "var_3" "grappled_x"
 /// @DnDArgument : "var_4" "grappled_y"
 /// @DnDArgument : "var_5" "grappled"
+/// @DnDArgument : "var_6" "tele"
 global.lightning = 0;
 global.gold = 0;
 global.cooldown = 1;
 global.grappled_x = 0;
 global.grappled_y = 0;
 global.grappled = 0;
+global.tele = 0;
