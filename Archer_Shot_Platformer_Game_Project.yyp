@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "aedad603-ee73-4247-ace7-4ac0613ff426",
+            "Value": {
+                "id": "edbb6fec-9de9-4328-8afc-57e66a41f807",
+                "resourcePath": "sprites\\Health\\Health.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b67ea38f-7be3-422a-9a95-61cb33c1c55c",
             "Value": {
                 "id": "f2c45aef-ea15-4e47-a400-5d044a7ec9e6",
