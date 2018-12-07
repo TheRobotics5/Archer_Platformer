@@ -22,10 +22,10 @@ if(exsists == 1)
 	/// @DnDHash : 5B563652
 	/// @DnDApplyTo : 7ebaba8b-f3ea-478d-81d1-b22e2259dc62
 	/// @DnDParent : 2CB83B1A
-	/// @DnDArgument : "expr" "11"
+	/// @DnDArgument : "expr" "15"
 	/// @DnDArgument : "var" "movespeed"
 	with(Archer) {
-	movespeed = 11;
+	movespeed = 15;
 	
 	}
 
