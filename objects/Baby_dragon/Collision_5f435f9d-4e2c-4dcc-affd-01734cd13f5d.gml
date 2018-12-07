@@ -9,8 +9,8 @@ if(chained == 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 7DD647AD
 	/// @DnDParent : 6048A39D
-	/// @DnDArgument : "code" "image_index = +1;"
-	image_index = +1;
+	/// @DnDArgument : "code" "image_index = (color_frame)-1;"
+	image_index = (color_frame)-1;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -23,8 +23,8 @@ if(chained == 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 5E46CFE7
 	/// @DnDParent : 6048A39D
-	/// @DnDArgument : "steps" "15"
-	alarm_set(0, 15);
+	/// @DnDArgument : "steps" "45"
+	alarm_set(0, 45);
 
 	/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 	/// @DnDVersion : 1
