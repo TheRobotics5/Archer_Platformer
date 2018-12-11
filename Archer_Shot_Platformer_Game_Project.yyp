@@ -207,14 +207,6 @@
             }
         },
         {
-            "Key": "8359826f-1476-40fa-95a5-2ca606a4768f",
-            "Value": {
-                "id": "2d9d3fcd-46e3-434e-bef5-c7a14c788df6",
-                "resourcePath": "objects\\Grapple_hook\\Grapple_hook.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "85aa90ea-06ae-4793-805d-eb85a41daee8",
             "Value": {
                 "id": "dacd64a9-8b26-4f24-b57c-d06623a68cc2",
@@ -375,6 +367,14 @@
             }
         },
         {
+            "Key": "dd658033-d61c-4ae9-a1e7-09c96f0e205a",
+            "Value": {
+                "id": "d16e1a5e-883d-4e8b-a89d-e7929131415c",
+                "resourcePath": "objects\\Healthbar\\Healthbar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e0010c69-c1ce-4717-bd9d-05806a2469c1",
             "Value": {
                 "id": "6b49d9a3-43a2-4ab6-a2bf-6b30f6b5693b",
@@ -388,14 +388,6 @@
                 "id": "bb6c8b94-b23f-4648-abef-6578cbf23ca9",
                 "resourcePath": "objects\\Scout\\Scout.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "e727222c-883c-477f-8a68-9defdcc15384",
-            "Value": {
-                "id": "8f74a0fb-2133-4bdb-8b67-259df9b4dcc8",
-                "resourcePath": "sprites\\hook\\hook.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

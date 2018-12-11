@@ -162,8 +162,8 @@ if(tele_powered == 1)
 		/// @DnDVersion : 1
 		/// @DnDHash : 2CD893CE
 		/// @DnDParent : 78E308B7
-		/// @DnDArgument : "code" "Hook = instance_create_layer(x, y, "Projectiles", Grapple_hook);$(13_10)Hook.speed = 10;$(13_10)Hook.image_angle = 45;$(13_10)Hook.direction = 45;"
-		Hook = instance_create_layer(x, y, "Projectiles", Grapple_hook);
+		/// @DnDArgument : "code" "Hook = instance_create_layer(x, y, "Projectiles", Player_arrow);$(13_10)Hook.speed = 10;$(13_10)Hook.image_angle = 45;$(13_10)Hook.direction = 45;"
+		Hook = instance_create_layer(x, y, "Projectiles", Player_arrow);
 		Hook.speed = 10;
 		Hook.image_angle = 45;
 		Hook.direction = 45;
@@ -180,8 +180,8 @@ if(tele_powered == 1)
 		/// @DnDVersion : 1
 		/// @DnDHash : 0431917E
 		/// @DnDParent : 0B5093D3
-		/// @DnDArgument : "code" "Hook = instance_create_layer(x, y, "Projectiles", Grapple_hook);$(13_10)Hook.speed = 10;$(13_10)Hook.image_angle = 135;$(13_10)Hook.direction = 135;"
-		Hook = instance_create_layer(x, y, "Projectiles", Grapple_hook);
+		/// @DnDArgument : "code" "Hook = instance_create_layer(x, y, "Projectiles", Player_arrow);$(13_10)Hook.speed = 10;$(13_10)Hook.image_angle = 135;$(13_10)Hook.direction = 135;"
+		Hook = instance_create_layer(x, y, "Projectiles", Player_arrow);
 		Hook.speed = 10;
 		Hook.image_angle = 135;
 		Hook.direction = 135;
@@ -199,8 +199,8 @@ if(tele_powered == 1)
 		/// @DnDVersion : 1
 		/// @DnDHash : 22E62678
 		/// @DnDParent : 4F32D15E
-		/// @DnDArgument : "code" "Hook = instance_create_layer(x, y, "Projectiles", Grapple_hook);$(13_10)Hook.speed = 10;$(13_10)Hook.image_angle = 90;$(13_10)Hook.direction = 90;"
-		Hook = instance_create_layer(x, y, "Projectiles", Grapple_hook);
+		/// @DnDArgument : "code" "Hook = instance_create_layer(x, y, "Projectiles", Player_arrow);$(13_10)Hook.speed = 10;$(13_10)Hook.image_angle = 90;$(13_10)Hook.direction = 90;"
+		Hook = instance_create_layer(x, y, "Projectiles", Player_arrow);
 		Hook.speed = 10;
 		Hook.image_angle = 90;
 		Hook.direction = 90;
