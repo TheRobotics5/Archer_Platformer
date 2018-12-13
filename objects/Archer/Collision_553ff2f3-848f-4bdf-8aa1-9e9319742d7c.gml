@@ -1,9 +1,5 @@
-/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+/// @DnDAction : YoYo Games.Movement.Set_Friction
 /// @DnDVersion : 1
-/// @DnDHash : 269D0580
-/// @DnDArgument : "x" "-3"
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "-8"
-/// @DnDArgument : "y_relative" "1"
-x += -3;
-y += -8;
+/// @DnDHash : 17B7EAD3
+/// @DnDArgument : "friction" "100"
+friction = 100;

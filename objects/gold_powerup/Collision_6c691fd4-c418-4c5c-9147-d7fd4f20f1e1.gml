@@ -49,13 +49,6 @@ if(exsists == 1)
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
-	/// @DnDHash : 19F65381
-	/// @DnDParent : 2CB83B1A
-	/// @DnDArgument : "steps" "340"
-	alarm_set(0, 340);
-
-	/// @DnDAction : YoYo Games.Instances.Set_Alarm
-	/// @DnDVersion : 1
 	/// @DnDHash : 66CB77D4
 	/// @DnDParent : 2CB83B1A
 	/// @DnDArgument : "steps" "435"

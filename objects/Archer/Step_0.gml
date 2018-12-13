@@ -48,9 +48,16 @@ y += vsp;
 
 /// @DnDAction : YoYo Games.Common.Get_Global
 /// @DnDVersion : 1
-/// @DnDHash : 236A0F24
-/// @DnDArgument : "output" "grappled"
-/// @DnDArgument : "var" "grappled"
+/// @DnDHash : 1C94EB10
+/// @DnDInput : 3
+/// @DnDArgument : "output" "grapple_x"
+/// @DnDArgument : "output_1" "grapple_y"
+/// @DnDArgument : "output_2" "grappled"
+/// @DnDArgument : "var" "grappled_x"
+/// @DnDArgument : "var_1" "grappled_y"
+/// @DnDArgument : "var_2" "grappled"
+grapple_x = global.grappled_x;
+grapple_y = global.grappled_y;
 grappled = global.grappled;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -60,34 +67,32 @@ grappled = global.grappled;
 /// @DnDArgument : "value" "1"
 if(grappled == 1)
 {
-	/// @DnDAction : YoYo Games.Common.Get_Global
+	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 	/// @DnDVersion : 1
-	/// @DnDHash : 1C94EB10
-	/// @DnDInput : 2
-	/// @DnDParent : 36C24DAC
-	/// @DnDArgument : "output" "grapple_x"
-	/// @DnDArgument : "output_1" "grapple_y"
-	/// @DnDArgument : "var" "grappled_x"
-	/// @DnDArgument : "var_1" "grappled_y"
-	grapple_x = global.grappled_x;
-	grapple_y = global.grappled_y;
-
-	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-	/// @DnDVersion : 1
-	/// @DnDHash : 2519BC18
-	/// @DnDApplyTo : 7ebaba8b-f3ea-478d-81d1-b22e2259dc62
+	/// @DnDHash : 534C56F6
 	/// @DnDParent : 36C24DAC
 	/// @DnDArgument : "x" "grapple_x"
 	/// @DnDArgument : "y" "(grapple_y)+50"
-	with(Archer) {
-	x = grapple_x;
-	y = (grapple_y)+50;
-	}
+	direction = point_direction(x, y, grapple_x, (grapple_y)+50);
+
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 18961407
+	/// @DnDParent : 36C24DAC
+	/// @DnDArgument : "speed" "15"
+	speed = 15;
 
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
-	/// @DnDHash : 342B7D77
+	/// @DnDHash : 25DD0FCC
 	/// @DnDParent : 36C24DAC
 	/// @DnDArgument : "var" "grappled"
 	global.grappled = 0;
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 00C2FC8F
+	/// @DnDParent : 36C24DAC
+	/// @DnDArgument : "steps" "50"
+	alarm_set(0, 50);
 }

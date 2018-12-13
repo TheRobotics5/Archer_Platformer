@@ -2,8 +2,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 6F137626
 /// @DnDArgument : "output" "grappling"
-/// @DnDArgument : "var" "tele"
-grappling = global.tele;
+/// @DnDArgument : "var" "gold"
+grappling = global.gold;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
