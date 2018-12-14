@@ -31,6 +31,14 @@ if(player_health <= 0)
 	/// @DnDParent : 47FE5666
 	with(all) instance_destroy();
 
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 40C57102
+	/// @DnDParent : 47FE5666
+	/// @DnDArgument : "soundid" "game_over_sound"
+	/// @DnDSaveInfo : "soundid" "8c7a13e0-a540-4665-bd33-5064e9f3a0c4"
+	audio_play_sound(game_over_sound, 0, 0);
+
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 6CAE51C8

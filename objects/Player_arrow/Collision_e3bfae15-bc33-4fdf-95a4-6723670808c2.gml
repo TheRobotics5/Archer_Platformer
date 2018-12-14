@@ -22,3 +22,10 @@ if(useless == 0)
 /// @DnDVersion : 1
 /// @DnDHash : 4C7F385D
 instance_destroy();
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 7E752DD4
+/// @DnDArgument : "soundid" "enemy_hit_sound"
+/// @DnDSaveInfo : "soundid" "03ec7ff9-1286-478f-8b62-9afc5204acab"
+audio_play_sound(enemy_hit_sound, 0, 0);

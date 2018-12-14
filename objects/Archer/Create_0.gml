@@ -52,3 +52,11 @@ global.grappled_x = 0;
 global.grappled_y = 0;
 global.grappled = 0;
 global.player_health = 6;
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 00F50A43
+/// @DnDArgument : "soundid" "Archer_shot_music"
+/// @DnDArgument : "loop" "1"
+/// @DnDSaveInfo : "soundid" "06aa968c-b60c-4ab1-9d30-6bce98473c93"
+audio_play_sound(Archer_shot_music, 0, 1);

@@ -1,16 +1,9 @@
-/// @DnDAction : YoYo Games.Common.Get_Global
-/// @DnDVersion : 1
-/// @DnDHash : 6F137626
-/// @DnDArgument : "output" "grappling"
-/// @DnDArgument : "var" "gold"
-grappling = global.gold;
-
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4960D636
-/// @DnDArgument : "var" "grappling"
+/// @DnDArgument : "var" "hooking"
 /// @DnDArgument : "value" "1"
-if(grappling == 1)
+if(hooking == 1)
 {
 	/// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
 	/// @DnDVersion : 1.1

@@ -1,8 +1,14 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 040CDB33
+/// @DnDArgument : "soundid" "arrow_shoot_sound"
+/// @DnDSaveInfo : "soundid" "a8c1d0e7-d836-4083-b70b-c0b0bd10b575"
+audio_play_sound(arrow_shoot_sound, 0, 0);
+
 /// @DnDAction : YoYo Games.Movement.Set_Friction
 /// @DnDVersion : 1
 /// @DnDHash : 4DEEC164
-/// @DnDArgument : "friction" "100"
-friction = 100;
+friction = 0;
 
 /// @DnDAction : YoYo Games.Common.Get_Global
 /// @DnDVersion : 1

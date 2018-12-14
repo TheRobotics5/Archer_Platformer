@@ -47,11 +47,27 @@
             }
         },
         {
+            "Key": "03ec7ff9-1286-478f-8b62-9afc5204acab",
+            "Value": {
+                "id": "b1d0578a-2259-478a-9df5-0fa7c093a151",
+                "resourcePath": "sounds\\enemy_hit_sound\\enemy_hit_sound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "04ae5832-23b1-4e2b-9190-ce97001da8e4",
             "Value": {
                 "id": "a6d6aab0-3677-48dc-a508-8f4a14fb2feb",
                 "resourcePath": "views\\04ae5832-23b1-4e2b-9190-ce97001da8e4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "06aa968c-b60c-4ab1-9d30-6bce98473c93",
+            "Value": {
+                "id": "e956bd67-fe59-4414-a304-2c7fcf92e9ef",
+                "resourcePath": "sounds\\Archer_shot_music\\Archer_shot_music.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -223,6 +239,14 @@
             }
         },
         {
+            "Key": "8c7a13e0-a540-4665-bd33-5064e9f3a0c4",
+            "Value": {
+                "id": "4feff2d2-441f-49e7-8e64-234c3660cb6e",
+                "resourcePath": "sounds\\game_over_sound\\game_over_sound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "903bcfb8-e0f2-443c-835a-297b19515f6f",
             "Value": {
                 "id": "05673d7c-1e21-452e-96e1-2029e5f33a1c",
@@ -252,6 +276,14 @@
                 "id": "f57b08e3-3629-46a6-880e-00dd12015479",
                 "resourcePath": "tilesets\\block_set\\block_set.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "a8c1d0e7-d836-4083-b70b-c0b0bd10b575",
+            "Value": {
+                "id": "bf7ad5f1-420a-4d86-a283-4514b22b7c58",
+                "resourcePath": "sounds\\arrow_shoot_sound\\arrow_shoot_sound.yy",
+                "resourceType": "GMSound"
             }
         },
         {

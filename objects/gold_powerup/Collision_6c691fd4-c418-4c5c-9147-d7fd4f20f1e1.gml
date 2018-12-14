@@ -17,27 +17,16 @@ if(exsists == 1)
 	image_index = 0;
 	}
 
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 5B563652
-	/// @DnDApplyTo : 7ebaba8b-f3ea-478d-81d1-b22e2259dc62
-	/// @DnDParent : 2CB83B1A
-	/// @DnDArgument : "expr" "15"
-	/// @DnDArgument : "var" "movespeed"
-	with(Archer) {
-	movespeed = 15;
-	
-	}
-
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
 	/// @DnDHash : 7ED21AD4
 	/// @DnDApplyTo : 7ebaba8b-f3ea-478d-81d1-b22e2259dc62
 	/// @DnDParent : 2CB83B1A
-	/// @DnDArgument : "code" "grav = 0.7;$(13_10)jumpspeed = 14;"
+	/// @DnDArgument : "code" "grav = 0.7;$(13_10)jumpspeed = 14;$(13_10)movespeed = 9;"
 	with(Archer) {
 	grav = 0.7;
 	jumpspeed = 14;
+	movespeed = 9;
 	}
 
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
