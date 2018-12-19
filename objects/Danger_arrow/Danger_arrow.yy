@@ -1,28 +1,28 @@
 {
-    "id": "ed15aa01-c8a7-414a-a50d-3102fe8fbaf0",
+    "id": "b059de22-b811-4d6f-b1da-675dd5ab8573",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Knight",
+    "name": "Danger_arrow",
     "eventList": [
         {
-            "id": "6ed01a2f-80cb-413d-aafb-2c276c88c5f2",
+            "id": "9e947df5-d23f-41c8-af6d-c3bf56f4db95",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "ed15aa01-c8a7-414a-a50d-3102fe8fbaf0"
+            "m_owner": "b059de22-b811-4d6f-b1da-675dd5ab8573"
         },
         {
-            "id": "ad1d1afe-fab9-4b40-922f-3377479b4ada",
+            "id": "c7b3ce68-bfa7-4cf9-8615-b9f09aec8eb2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "125c1a40-1964-44d2-bd7d-90b308ea9075",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "ed15aa01-c8a7-414a-a50d-3102fe8fbaf0"
+            "eventtype": 4,
+            "m_owner": "b059de22-b811-4d6f-b1da-675dd5ab8573"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c90987d2-6854-4be5-b493-b68005f150a1",
+    "spriteId": "fd090185-1b22-41d4-a74b-3363636223da",
     "visible": true
 }

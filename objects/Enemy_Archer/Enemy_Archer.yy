@@ -4,7 +4,46 @@
     "mvc": "1.0",
     "name": "Enemy_Archer",
     "eventList": [
-        
+        {
+            "id": "42a0c7a8-69d8-4111-8dbd-ecc4d08af707",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "4b727a6a-02c8-492b-a3e7-2df554e52feb"
+        },
+        {
+            "id": "dc4ae552-ff32-47a4-8bed-0c9b99332faf",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "4b727a6a-02c8-492b-a3e7-2df554e52feb"
+        },
+        {
+            "id": "7a00633f-d061-4642-908d-04da6461eed2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "4b727a6a-02c8-492b-a3e7-2df554e52feb"
+        },
+        {
+            "id": "26bbcc86-5a85-4133-911e-e8a83a2d58bf",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "4b727a6a-02c8-492b-a3e7-2df554e52feb"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

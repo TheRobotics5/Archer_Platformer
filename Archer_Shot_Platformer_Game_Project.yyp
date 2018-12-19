@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "b059de22-b811-4d6f-b1da-675dd5ab8573",
+            "Value": {
+                "id": "003595bd-ed7d-47a7-88ea-cdbb169fa408",
+                "resourcePath": "objects\\Danger_arrow\\Danger_arrow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b67ea38f-7be3-422a-9a95-61cb33c1c55c",
             "Value": {
                 "id": "f2c45aef-ea15-4e47-a400-5d044a7ec9e6",

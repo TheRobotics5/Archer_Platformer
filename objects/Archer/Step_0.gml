@@ -46,6 +46,27 @@ if (place_meeting (x,y+vsp,wall_object))
 x += hsp;
 y += vsp;
 
+/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
+/// @DnDVersion : 1
+/// @DnDHash : 4C89FE05
+/// @DnDInput : 2
+/// @DnDArgument : "target" "archer_x"
+/// @DnDArgument : "target_1" "archer_y"
+/// @DnDArgument : "instvar_1" "1"
+archer_x = x;
+archer_y = y;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 1782511A
+/// @DnDInput : 2
+/// @DnDArgument : "value" "archer_x"
+/// @DnDArgument : "value_1" "archer_y"
+/// @DnDArgument : "var" "archer_x"
+/// @DnDArgument : "var_1" "archer_y"
+global.archer_x = archer_x;
+global.archer_y = archer_y;
+
 /// @DnDAction : YoYo Games.Common.Get_Global
 /// @DnDVersion : 1
 /// @DnDHash : 3776CDC7
