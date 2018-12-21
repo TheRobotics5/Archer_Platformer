@@ -45,8 +45,8 @@ if(archer_location_x < self_x)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4EB5684D
 	/// @DnDParent : 4FABEE82
-	/// @DnDArgument : "steps" "irandom(70)"
-	alarm_set(0, irandom(70));
+	/// @DnDArgument : "steps" "irandom(100)"
+	alarm_set(0, irandom(100));
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -61,7 +61,7 @@ if(archer_location_x > self_x)
 	/// @DnDVersion : 1
 	/// @DnDHash : 091F063E
 	/// @DnDParent : 5AF6E3C4
-	/// @DnDArgument : "steps" "irandom(70)"
+	/// @DnDArgument : "steps" "irandom(100)"
 	/// @DnDArgument : "alarm" "1"
-	alarm_set(1, irandom(70));
+	alarm_set(1, irandom(100));
 }
