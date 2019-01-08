@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "87372069-7a38-4021-b403-1c5e5d7d417f",
+            "Value": {
+                "id": "81f222e6-6bb0-4e2f-8704-8de4375f5c7e",
+                "resourcePath": "sprites\\platform_sprite\\platform_sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "87865d8b-07c4-4617-8177-781a3acfed78",
             "Value": {
                 "id": "e3134ab8-0b55-4563-97ae-f2faa3b205c5",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "a7ea81a7-ccf3-42c2-bdab-42e0b3fae3ad",
+            "Value": {
+                "id": "42f66590-4a76-4ce6-8a3b-e7b248656231",
+                "resourcePath": "sprites\\Dangerous\\Dangerous.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a8c1d0e7-d836-4083-b70b-c0b0bd10b575",
             "Value": {
                 "id": "bf7ad5f1-420a-4d86-a283-4514b22b7c58",
@@ -292,6 +308,14 @@
                 "id": "1b4a94de-fcba-4af2-988e-c8abf304d605",
                 "resourcePath": "views\\a8dd082d-4574-42d0-82f9-9fa6c502a66a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "aa2e1051-9371-42b6-b53c-0bff744ebf82",
+            "Value": {
+                "id": "fe554e9c-a009-4f94-aa49-4a7193590582",
+                "resourcePath": "objects\\platform\\platform.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -359,14 +383,6 @@
             }
         },
         {
-            "Key": "c90987d2-6854-4be5-b493-b68005f150a1",
-            "Value": {
-                "id": "cccef929-5256-4f27-8090-ae7f40248e90",
-                "resourcePath": "sprites\\Hard_Enemy\\Hard_Enemy.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "f46db0a9-7122-4e91-9e88-1cb82ba9c902",
@@ -411,14 +427,6 @@
             "Value": {
                 "id": "bb6c8b94-b23f-4648-abef-6578cbf23ca9",
                 "resourcePath": "objects\\Scout\\Scout.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "ed15aa01-c8a7-414a-a50d-3102fe8fbaf0",
-            "Value": {
-                "id": "1b7576a8-57d2-4b3d-a9dd-98d47db10e7c",
-                "resourcePath": "objects\\Knight\\Knight.yy",
                 "resourceType": "GMObject"
             }
         },
