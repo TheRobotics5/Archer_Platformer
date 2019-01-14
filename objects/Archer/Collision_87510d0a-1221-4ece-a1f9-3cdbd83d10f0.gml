@@ -16,3 +16,11 @@ global.gold = 1;
 /// @DnDHash : 455A7F91
 /// @DnDArgument : "var" "lightning"
 global.lightning = 0;
+
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 2E6D900E
+/// @DnDArgument : "spriteind" "Gold_Player_sprite"
+/// @DnDSaveInfo : "spriteind" "6e2bb3f2-be54-40f6-981b-19698738b8e1"
+sprite_index = Gold_Player_sprite;
+image_index = 0;

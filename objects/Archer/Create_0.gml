@@ -14,13 +14,16 @@ image_speed = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7432466E
-/// @DnDInput : 2
+/// @DnDInput : 3
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "expr_1" "6"
+/// @DnDArgument : "expr_2" "1"
 /// @DnDArgument : "var" "facing"
 /// @DnDArgument : "var_1" "player_health"
+/// @DnDArgument : "var_2" "cooldown"
 facing = 1;
 player_health = 6;
+cooldown = 1;
 
 /// @DnDAction : YoYo Games.Instances.Get_Instance_Var
 /// @DnDVersion : 1

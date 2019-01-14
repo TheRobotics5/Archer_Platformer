@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "05328b0e-bf1d-4180-95ca-22cb81bafab1",
+            "Value": {
+                "id": "fbf461d3-8d93-4bcb-844c-4c956df01505",
+                "resourcePath": "sprites\\Gold_crouch\\Gold_crouch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "06aa968c-b60c-4ab1-9d30-6bce98473c93",
             "Value": {
                 "id": "e956bd67-fe59-4414-a304-2c7fcf92e9ef",
@@ -180,6 +188,14 @@
                 "id": "11e7d03b-3f65-4309-a7bd-123b8461cd31",
                 "resourcePath": "objects\\danger\\danger.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "575373f4-0ee3-4335-a143-f8ab7b05ac09",
+            "Value": {
+                "id": "dec7260d-c843-4762-97b2-3a21b85a2521",
+                "resourcePath": "sprites\\green_crouch\\green_crouch.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -412,6 +428,14 @@
                 "id": "d16e1a5e-883d-4e8b-a89d-e7929131415c",
                 "resourcePath": "objects\\Healthbar\\Healthbar.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "df7f2410-3617-4a5a-b51d-0fcff712d034",
+            "Value": {
+                "id": "92a2377b-aeb5-408e-a50e-9347cd5d07eb",
+                "resourcePath": "sprites\\blue_crouch\\blue_crouch.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
