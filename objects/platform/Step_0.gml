@@ -15,9 +15,9 @@ y_cor = y;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 7DAB79FB
-/// @DnDArgument : "code" "if instance_exists(Archer)$(13_10){$(13_10)	if (archer_y > y_cor) mask_index = platform_sprite;$(13_10)	else mask_index = -1;$(13_10)}"
+/// @DnDArgument : "code" "if instance_exists(Archer)$(13_10){$(13_10)	if (archer_y > y_cor) mask_index = platform_sprite;$(13_10)	else mask_index = scoreboard;$(13_10)}"
 if instance_exists(Archer)
 {
 	if (archer_y > y_cor) mask_index = platform_sprite;
-	else mask_index = -1;
+	else mask_index = scoreboard;
 }

@@ -1,9 +1,9 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 68687BF1
-/// @DnDArgument : "expr" "1"
+/// @DnDHash : 6A70EBA5
+/// @DnDArgument : "value" "1"
 /// @DnDArgument : "var" "crouching"
-crouching = 1;
+global.crouching = 1;
 
 /// @DnDAction : YoYo Games.Common.Get_Global
 /// @DnDVersion : 1
@@ -16,40 +16,23 @@ crouching = 1;
 golden = global.gold;
 blue = global.lightning;
 
-/// @DnDAction : YoYo Games.Loops.While_Loop
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 62ED2FB9
-/// @DnDArgument : "var" "crouching"
-/// @DnDArgument : "value" "1"
-while ((crouching == 1)) {
-	/// @DnDAction : YoYo Games.Movement.Set_Speed
-	/// @DnDVersion : 1
-	/// @DnDHash : 6D903CF9
-	/// @DnDParent : 62ED2FB9
-	speed = 0;
+/// @DnDHash : 5EB61839
+/// @DnDArgument : "code" "image_xscale = 4;$(13_10)hsp = 0;$(13_10)facing = 2;"
+image_xscale = 4;
+hsp = 0;
+facing = 2;
 
-	/// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
-	/// @DnDVersion : 1.1
-	/// @DnDHash : 18C59A8A
-	/// @DnDParent : 62ED2FB9
-	speed = 0;
-	direction = 0;
-
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 497D6761
-	/// @DnDParent : 62ED2FB9
-	/// @DnDArgument : "expr" "2"
-	/// @DnDArgument : "var" "facing"
-	facing = 2;
-
-	/// @DnDAction : YoYo Games.Common.Execute_Code
-	/// @DnDVersion : 1
-	/// @DnDHash : 5C9A54AF
-	/// @DnDParent : 62ED2FB9
-	/// @DnDArgument : "code" "image_xscale = 1;"
-	image_xscale = 1;
-}
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 13C413BB
+/// @DnDArgument : "xpos_relative" "1"
+/// @DnDArgument : "ypos_relative" "1"
+/// @DnDArgument : "objectid" "wall_object"
+/// @DnDArgument : "layer" ""Player""
+/// @DnDSaveInfo : "objectid" "125c1a40-1964-44d2-bd7d-90b308ea9075"
+instance_create_layer(x + 0, y + 0, "Player", wall_object);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -68,9 +51,9 @@ if(blue == 0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 444BB944
 		/// @DnDParent : 418DA647
-		/// @DnDArgument : "spriteind" "Archer_Player_Sprite"
-		/// @DnDSaveInfo : "spriteind" "c422f383-ef9d-4a44-b457-26944f78d459"
-		sprite_index = Archer_Player_Sprite;
+		/// @DnDArgument : "spriteind" "green_crouch"
+		/// @DnDSaveInfo : "spriteind" "575373f4-0ee3-4335-a143-f8ab7b05ac09"
+		sprite_index = green_crouch;
 		image_index = 0;
 	}
 }

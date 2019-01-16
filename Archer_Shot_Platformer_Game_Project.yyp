@@ -127,14 +127,6 @@
             }
         },
         {
-            "Key": "256a72d9-f009-4b16-8cc8-9430e894a901",
-            "Value": {
-                "id": "5cc7c02f-b9cf-4a61-8a55-2e0e7fedc3dc",
-                "resourcePath": "timelines\\Grapple\\Grapple.yy",
-                "resourceType": "GMTimeline"
-            }
-        },
-        {
             "Key": "27dbc897-a694-4f83-93d6-3541fe17ec31",
             "Value": {
                 "id": "cad95e01-e5ee-408c-bf23-8791cffb23ae",
@@ -292,6 +284,14 @@
                 "id": "8d66d65c-2f33-4197-9c6a-a2d25a5e9cc7",
                 "resourcePath": "views\\9e935e6a-5860-4c87-b684-310dbfd907fc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9ead1ecc-a535-4ab5-b1ba-e17f9e9c9527",
+            "Value": {
+                "id": "94652e09-8e81-4135-8c49-1e43bc7c15c9",
+                "resourcePath": "timelines\\BOSS_FIGHT\\BOSS_FIGHT.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
