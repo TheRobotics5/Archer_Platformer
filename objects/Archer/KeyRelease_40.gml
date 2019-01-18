@@ -1,3 +1,8 @@
+/// @DnDAction : YoYo Games.Movement.Set_Friction
+/// @DnDVersion : 1
+/// @DnDHash : 6299E7F8
+friction = 0;
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3F9D2C56

@@ -97,49 +97,57 @@ grappled = global.grappled;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 36C24DAC
-/// @DnDArgument : "var" "grappled"
-/// @DnDArgument : "value" "1"
-if(grappled == 1)
+/// @DnDHash : 107D6435
+/// @DnDArgument : "var" "crouching"
+if(crouching == 0)
 {
-	/// @DnDAction : YoYo Games.Common.Get_Global
+	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 1C94EB10
-	/// @DnDInput : 2
-	/// @DnDParent : 36C24DAC
-	/// @DnDArgument : "output" "grapple_x"
-	/// @DnDArgument : "output_1" "grapple_y"
-	/// @DnDArgument : "var" "grappled_x"
-	/// @DnDArgument : "var_1" "grappled_y"
-	grapple_x = global.grappled_x;
-	grapple_y = global.grappled_y;
-
-	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
-	/// @DnDVersion : 1
-	/// @DnDHash : 534C56F6
-	/// @DnDParent : 36C24DAC
-	/// @DnDArgument : "x" "grapple_x"
-	/// @DnDArgument : "y" "(grapple_y)+50"
-	direction = point_direction(x, y, grapple_x, (grapple_y)+50);
-
-	/// @DnDAction : YoYo Games.Movement.Set_Speed
-	/// @DnDVersion : 1
-	/// @DnDHash : 18961407
-	/// @DnDParent : 36C24DAC
-	/// @DnDArgument : "speed" "15"
-	speed = 15;
-
-	/// @DnDAction : YoYo Games.Common.Set_Global
-	/// @DnDVersion : 1
-	/// @DnDHash : 25DD0FCC
-	/// @DnDParent : 36C24DAC
+	/// @DnDHash : 36C24DAC
+	/// @DnDParent : 107D6435
 	/// @DnDArgument : "var" "grappled"
-	global.grappled = 0;
-
-	/// @DnDAction : YoYo Games.Instances.Set_Alarm
-	/// @DnDVersion : 1
-	/// @DnDHash : 00C2FC8F
-	/// @DnDParent : 36C24DAC
-	/// @DnDArgument : "steps" "100"
-	alarm_set(0, 100);
+	/// @DnDArgument : "value" "1"
+	if(grappled == 1)
+	{
+		/// @DnDAction : YoYo Games.Common.Get_Global
+		/// @DnDVersion : 1
+		/// @DnDHash : 1C94EB10
+		/// @DnDInput : 2
+		/// @DnDParent : 36C24DAC
+		/// @DnDArgument : "output" "grapple_x"
+		/// @DnDArgument : "output_1" "grapple_y"
+		/// @DnDArgument : "var" "grappled_x"
+		/// @DnDArgument : "var_1" "grappled_y"
+		grapple_x = global.grappled_x;
+		grapple_y = global.grappled_y;
+	
+		/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+		/// @DnDVersion : 1
+		/// @DnDHash : 534C56F6
+		/// @DnDParent : 36C24DAC
+		/// @DnDArgument : "x" "grapple_x"
+		/// @DnDArgument : "y" "(grapple_y)+50"
+		direction = point_direction(x, y, grapple_x, (grapple_y)+50);
+	
+		/// @DnDAction : YoYo Games.Movement.Set_Speed
+		/// @DnDVersion : 1
+		/// @DnDHash : 18961407
+		/// @DnDParent : 36C24DAC
+		/// @DnDArgument : "speed" "15"
+		speed = 15;
+	
+		/// @DnDAction : YoYo Games.Common.Set_Global
+		/// @DnDVersion : 1
+		/// @DnDHash : 25DD0FCC
+		/// @DnDParent : 36C24DAC
+		/// @DnDArgument : "var" "grappled"
+		global.grappled = 0;
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 00C2FC8F
+		/// @DnDParent : 36C24DAC
+		/// @DnDArgument : "steps" "100"
+		alarm_set(0, 100);
+	}
 }

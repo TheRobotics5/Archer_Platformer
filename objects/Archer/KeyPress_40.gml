@@ -1,9 +1,18 @@
+/// @DnDAction : YoYo Games.Movement.Set_Friction
+/// @DnDVersion : 1
+/// @DnDHash : 5B791A13
+/// @DnDArgument : "friction" "100"
+friction = 100;
+
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 6A70EBA5
+/// @DnDInput : 2
 /// @DnDArgument : "value" "1"
 /// @DnDArgument : "var" "crouching"
+/// @DnDArgument : "var_1" "grappled"
 global.crouching = 1;
+global.grappled = 0;
 
 /// @DnDAction : YoYo Games.Common.Get_Global
 /// @DnDVersion : 1

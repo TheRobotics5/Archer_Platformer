@@ -23,9 +23,13 @@ y += vsp;
 /// @DnDAction : YoYo Games.Common.Get_Global
 /// @DnDVersion : 1
 /// @DnDHash : 308EB4FC
+/// @DnDInput : 2
 /// @DnDArgument : "output" "archer_location_x"
+/// @DnDArgument : "output_1" "lightning"
 /// @DnDArgument : "var" "archer_x"
+/// @DnDArgument : "var_1" "lightning"
 archer_location_x = global.archer_x;
+lightning = global.lightning;
 
 /// @DnDAction : YoYo Games.Instances.Get_Instance_Var
 /// @DnDVersion : 1

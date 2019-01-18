@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "5e7c39fe-8206-4736-82b6-2907968d429a",
+            "Value": {
+                "id": "046bfa3e-8a07-498e-b3ce-58800ba0820a",
+                "resourcePath": "sprites\\Knight\\Knight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6e2bb3f2-be54-40f6-981b-19698738b8e1",
             "Value": {
                 "id": "d7b60f77-e9ce-40bd-9c53-4e7f5a3570ab",
@@ -236,14 +244,6 @@
                 "id": "82a20db7-feba-48c9-82a0-e550df466c0a",
                 "resourcePath": "views\\866da3f9-84fa-41e8-bc3b-74b72433670b.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "87372069-7a38-4021-b403-1c5e5d7d417f",
-            "Value": {
-                "id": "81f222e6-6bb0-4e2f-8704-8de4375f5c7e",
-                "resourcePath": "sprites\\platform_sprite\\platform_sprite.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

@@ -1,3 +1,12 @@
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 62F80F1C
+/// @DnDArgument : "var" "knight"
+if(knight == 0)
+{
+
+}
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 71ED12DC
@@ -32,3 +41,10 @@ if (place_meeting (x,y+vsp,wall_object))
 
 x += hsp;
 y += vsp;
+
+/// @DnDAction : YoYo Games.Common.Get_Global
+/// @DnDVersion : 1
+/// @DnDHash : 738E11CF
+/// @DnDArgument : "output" "lightning"
+/// @DnDArgument : "var" "lightning"
+lightning = global.lightning;
