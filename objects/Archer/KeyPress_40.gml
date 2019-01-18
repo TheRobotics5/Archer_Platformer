@@ -29,10 +29,10 @@ facing = 2;
 /// @DnDHash : 13C413BB
 /// @DnDArgument : "xpos_relative" "1"
 /// @DnDArgument : "ypos_relative" "1"
-/// @DnDArgument : "objectid" "wall_object"
+/// @DnDArgument : "objectid" "blocker"
 /// @DnDArgument : "layer" ""Player""
-/// @DnDSaveInfo : "objectid" "125c1a40-1964-44d2-bd7d-90b308ea9075"
-instance_create_layer(x + 0, y + 0, "Player", wall_object);
+/// @DnDSaveInfo : "objectid" "957b3951-1b14-4b53-b676-6fbedfb57e3c"
+instance_create_layer(x + 0, y + 0, "Player", blocker);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

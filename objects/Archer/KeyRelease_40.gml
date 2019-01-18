@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3F9D2C56
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "facing"
+facing = 1;
+
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 6FAA8863
@@ -14,6 +21,12 @@ global.crouching = 0;
 /// @DnDArgument : "var_1" "lightning"
 golden = global.gold;
 blue = global.lightning;
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 098DD5F3
+/// @DnDApplyTo : 957b3951-1b14-4b53-b676-6fbedfb57e3c
+with(blocker) instance_destroy();
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
