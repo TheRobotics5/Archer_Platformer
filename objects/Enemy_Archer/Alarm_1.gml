@@ -18,8 +18,8 @@ if(angled == 1)
 		/// @DnDVersion : 1
 		/// @DnDHash : 6E384835
 		/// @DnDParent : 7444BD46
-		/// @DnDArgument : "code" "arrow = instance_create_layer(x, y, "Projectiles", Danger_arrow);$(13_10)arrow.speed = 12;$(13_10)arrow.direction = 340;$(13_10)arrow.image_angle = 340;$(13_10)"
-		arrow = instance_create_layer(x, y, "Projectiles", Danger_arrow);
+		/// @DnDArgument : "code" "arrow = instance_create_layer(x, y-50, "Projectiles", Danger_arrow);$(13_10)arrow.speed = 12;$(13_10)arrow.direction = 340;$(13_10)arrow.image_angle = 340;$(13_10)"
+		arrow = instance_create_layer(x, y-50, "Projectiles", Danger_arrow);
 		arrow.speed = 12;
 		arrow.direction = 340;
 		arrow.image_angle = 340;
@@ -38,8 +38,8 @@ if(angled == 1)
 		/// @DnDVersion : 1
 		/// @DnDHash : 3B764718
 		/// @DnDParent : 2E71E8F5
-		/// @DnDArgument : "code" "arrow = instance_create_layer(x, y, "Projectiles", Danger_arrow);$(13_10)arrow.speed = 12;$(13_10)arrow.direction = 20;$(13_10)arrow.image_angle = 20;$(13_10)"
-		arrow = instance_create_layer(x, y, "Projectiles", Danger_arrow);
+		/// @DnDArgument : "code" "arrow = instance_create_layer(x, y-50, "Projectiles", Danger_arrow);$(13_10)arrow.speed = 12;$(13_10)arrow.direction = 20;$(13_10)arrow.image_angle = 20;$(13_10)"
+		arrow = instance_create_layer(x, y-50, "Projectiles", Danger_arrow);
 		arrow.speed = 12;
 		arrow.direction = 20;
 		arrow.image_angle = 20;
@@ -56,8 +56,8 @@ if(angled == 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 2A88D8C4
 	/// @DnDParent : 6E8A5715
-	/// @DnDArgument : "code" "arrow = instance_create_layer(x, y, "Projectiles", Danger_arrow);$(13_10)arrow.speed = 12;$(13_10)arrow.direction = 0;$(13_10)arrow.image_angle = 0;$(13_10)"
-	arrow = instance_create_layer(x, y, "Projectiles", Danger_arrow);
+	/// @DnDArgument : "code" "arrow = instance_create_layer(x, y-50, "Projectiles", Danger_arrow);$(13_10)arrow.speed = 12;$(13_10)arrow.direction = 0;$(13_10)arrow.image_angle = 0;$(13_10)"
+	arrow = instance_create_layer(x, y-50, "Projectiles", Danger_arrow);
 	arrow.speed = 12;
 	arrow.direction = 0;
 	arrow.image_angle = 0;

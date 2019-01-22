@@ -17,9 +17,9 @@ if(red == 1)
 		/// @DnDVersion : 1
 		/// @DnDHash : 113BA67D
 		/// @DnDParent : 443B3B27
-		/// @DnDArgument : "value" "-1"
+		/// @DnDArgument : "value" "-0.5"
 		/// @DnDArgument : "value_relative" "1"
 		/// @DnDArgument : "var" "player_health"
-		global.player_health += -1;
+		global.player_health += -0.5;
 	}
 }

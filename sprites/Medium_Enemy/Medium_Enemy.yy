@@ -8,8 +8,8 @@
     "VTile": false,
     "bbox_bottom": 46,
     "bbox_left": 23,
-    "bbox_right": 44,
-    "bbox_top": 16,
+    "bbox_right": 45,
+    "bbox_top": 15,
     "bboxmode": 0,
     "colkind": 0,
     "coltolerance": 0,
@@ -242,5 +242,5 @@
     "type": 0,
     "width": 64,
     "xorig": 30,
-    "yorig": 36
+    "yorig": 42
 }
