@@ -212,9 +212,9 @@ if(archer_location_x > self_x)
 		/// @DnDVersion : 1
 		/// @DnDHash : 091F063E
 		/// @DnDParent : 5D5E6CD1
-		/// @DnDArgument : "steps" "6"
+		/// @DnDArgument : "steps" "2"
 		/// @DnDArgument : "alarm" "1"
-		alarm_set(1, 6);
+		alarm_set(1, 2);
 	}
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm

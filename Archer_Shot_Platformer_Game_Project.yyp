@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "1ea2668a-2ae9-4efe-870f-a9120da4e19e",
+            "Value": {
+                "id": "1e3724bc-1258-4bea-a279-057bc3975a8b",
+                "resourcePath": "rooms\\Secret_Win\\Secret_Win.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1f12b462-7116-40a7-8691-8cfd67983070",
             "Value": {
                 "id": "1299056e-221c-4ca7-abce-89e481b8f02e",
@@ -263,6 +271,14 @@
             }
         },
         {
+            "Key": "8ded0f4b-bacb-44c7-9e01-4a99b6b77a4e",
+            "Value": {
+                "id": "f22d6fb5-9e1a-44a2-87d3-225ebf1eb422",
+                "resourcePath": "rooms\\Title_Screen\\Title_Screen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "903bcfb8-e0f2-443c-835a-297b19515f6f",
             "Value": {
                 "id": "05673d7c-1e21-452e-96e1-2029e5f33a1c",
@@ -348,6 +364,14 @@
                 "id": "edbb6fec-9de9-4328-8afc-57e66a41f807",
                 "resourcePath": "sprites\\Health\\Health.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "afef61db-0a9f-4703-8f56-f5d371c809c8",
+            "Value": {
+                "id": "1b63eeae-8286-4b8e-8e38-0edcac86b32f",
+                "resourcePath": "rooms\\WIn\\WIn.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

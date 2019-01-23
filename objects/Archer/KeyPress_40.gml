@@ -86,13 +86,6 @@ if(golden == 1)
 	sprite_index = Crouch;
 	image_index = 2;
 	}
-
-	/// @DnDAction : YoYo Games.Common.Execute_Code
-	/// @DnDVersion : 1
-	/// @DnDHash : 08ACD48F
-	/// @DnDParent : 30DBD089
-	/// @DnDArgument : "code" "image_index = 2;"
-	image_index = 2;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -114,11 +107,4 @@ if(blue == 1)
 	sprite_index = Crouch;
 	image_index = 1;
 	}
-
-	/// @DnDAction : YoYo Games.Common.Execute_Code
-	/// @DnDVersion : 1
-	/// @DnDHash : 69D19552
-	/// @DnDParent : 056E9572
-	/// @DnDArgument : "code" "image_index = 1;"
-	image_index = 1;
 }
