@@ -9,9 +9,10 @@
 speedy = 1;
 movespeed = 6;
 
-/// @DnDAction : YoYo Games.Instances.Color_Sprite
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
-/// @DnDHash : 714BB37C
-/// @DnDArgument : "colour" "$85B2CBFF"
-/// @DnDArgument : "alpha" "false"
-image_blend = $85B2CBFF & $ffffff;
+/// @DnDHash : 2A88F67B
+/// @DnDArgument : "spriteind" "Elite_Basic_Enemy"
+/// @DnDSaveInfo : "spriteind" "b6b3e995-89ba-4442-a9a2-e566dab2d51d"
+sprite_index = Elite_Basic_Enemy;
+image_index = 0;
