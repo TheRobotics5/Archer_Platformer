@@ -27,9 +27,9 @@ if(speedy == 1)
 	/// @DnDHash : 6FDA0328
 	/// @DnDParent : 7B07FA0F
 	/// @DnDArgument : "var" "ax"
-	/// @DnDArgument : "op" "2"
+	/// @DnDArgument : "op" "4"
 	/// @DnDArgument : "value" "xa"
-	if(ax > xa)
+	if(ax >= xa)
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
