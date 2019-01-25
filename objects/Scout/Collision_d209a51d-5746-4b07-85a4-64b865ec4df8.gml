@@ -1,13 +1,16 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 41486974
-/// @DnDInput : 2
+/// @DnDInput : 3
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "expr_1" "2"
+/// @DnDArgument : "expr_2" "8"
 /// @DnDArgument : "var" "knight"
 /// @DnDArgument : "var_1" "movespeed"
+/// @DnDArgument : "var_2" "hp"
 knight = 1;
 movespeed = 2;
+hp = 8;
 
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
