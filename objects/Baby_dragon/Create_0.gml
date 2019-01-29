@@ -16,3 +16,10 @@ while (color_frame %2 == 0)
 
 
 image_index = color_frame;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 724781F7
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "chained"
+chained = 1;
