@@ -37,6 +37,12 @@ if(lightning == 1)
 			/// @DnDArgument : "expr_relative" "1"
 			/// @DnDArgument : "var" "hp"
 			hp += -2;
+		
+			/// @DnDAction : YoYo Games.Common.Exit_Event
+			/// @DnDVersion : 1
+			/// @DnDHash : 31AA8BFA
+			/// @DnDParent : 140D664A
+			exit;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -64,6 +70,12 @@ if(lightning == 1)
 			/// @DnDSaveInfo : "spriteind" "5a870a33-4cf6-4e4e-a40b-8e29426cd7d7"
 			sprite_index = Damaged_knight;
 			image_index = 0;
+		
+			/// @DnDAction : YoYo Games.Common.Exit_Event
+			/// @DnDVersion : 1
+			/// @DnDHash : 47373607
+			/// @DnDParent : 72870FEE
+			exit;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -91,6 +103,12 @@ if(lightning == 1)
 			/// @DnDSaveInfo : "spriteind" "5a870a33-4cf6-4e4e-a40b-8e29426cd7d7"
 			sprite_index = Damaged_knight;
 			image_index = 0;
+		
+			/// @DnDAction : YoYo Games.Common.Exit_Event
+			/// @DnDVersion : 1
+			/// @DnDHash : 1C95FB19
+			/// @DnDParent : 11D5CBAA
+			exit;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -118,6 +136,12 @@ if(lightning == 1)
 			/// @DnDSaveInfo : "spriteind" "5a870a33-4cf6-4e4e-a40b-8e29426cd7d7"
 			sprite_index = Damaged_knight;
 			image_index = 0;
+		
+			/// @DnDAction : YoYo Games.Common.Exit_Event
+			/// @DnDVersion : 1
+			/// @DnDHash : 2229A717
+			/// @DnDParent : 0D1408C5
+			exit;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -145,6 +169,12 @@ if(lightning == 1)
 			/// @DnDSaveInfo : "spriteind" "07084529-e27c-4893-85f3-80921377488b"
 			sprite_index = Basic_Enemy;
 			image_index = 0;
+		
+			/// @DnDAction : YoYo Games.Common.Exit_Event
+			/// @DnDVersion : 1
+			/// @DnDHash : 61D006F2
+			/// @DnDParent : 76E0EFCE
+			exit;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -172,6 +202,12 @@ if(lightning == 1)
 			/// @DnDSaveInfo : "spriteind" "07084529-e27c-4893-85f3-80921377488b"
 			sprite_index = Basic_Enemy;
 			image_index = 0;
+		
+			/// @DnDAction : YoYo Games.Common.Exit_Event
+			/// @DnDVersion : 1
+			/// @DnDHash : 28407F88
+			/// @DnDParent : 4E41B6F0
+			exit;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -286,6 +322,12 @@ if(lightning == 0)
 			/// @DnDArgument : "expr_relative" "1"
 			/// @DnDArgument : "var" "hp"
 			hp += -1;
+		
+			/// @DnDAction : YoYo Games.Common.Exit_Event
+			/// @DnDVersion : 1
+			/// @DnDHash : 3C4941B8
+			/// @DnDParent : 241741A1
+			exit;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -304,6 +346,12 @@ if(lightning == 0)
 			/// @DnDArgument : "expr_relative" "1"
 			/// @DnDArgument : "var" "hp"
 			hp += -1;
+		
+			/// @DnDAction : YoYo Games.Common.Exit_Event
+			/// @DnDVersion : 1
+			/// @DnDHash : 751F7371
+			/// @DnDParent : 2630F5A6
+			exit;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -331,6 +379,12 @@ if(lightning == 0)
 			/// @DnDSaveInfo : "spriteind" "5a870a33-4cf6-4e4e-a40b-8e29426cd7d7"
 			sprite_index = Damaged_knight;
 			image_index = 0;
+		
+			/// @DnDAction : YoYo Games.Common.Exit_Event
+			/// @DnDVersion : 1
+			/// @DnDHash : 3A0FCFCA
+			/// @DnDParent : 1D84DFD7
+			exit;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -349,6 +403,12 @@ if(lightning == 0)
 			/// @DnDArgument : "expr_relative" "1"
 			/// @DnDArgument : "var" "hp"
 			hp += -1;
+		
+			/// @DnDAction : YoYo Games.Common.Exit_Event
+			/// @DnDVersion : 1
+			/// @DnDHash : 5D0B7F69
+			/// @DnDParent : 4F1906A0
+			exit;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -367,6 +427,12 @@ if(lightning == 0)
 			/// @DnDArgument : "expr_relative" "1"
 			/// @DnDArgument : "var" "hp"
 			hp += -1;
+		
+			/// @DnDAction : YoYo Games.Common.Exit_Event
+			/// @DnDVersion : 1
+			/// @DnDHash : 0C949453
+			/// @DnDParent : 14830960
+			exit;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -394,6 +460,12 @@ if(lightning == 0)
 			/// @DnDSaveInfo : "spriteind" "07084529-e27c-4893-85f3-80921377488b"
 			sprite_index = Basic_Enemy;
 			image_index = 0;
+		
+			/// @DnDAction : YoYo Games.Common.Exit_Event
+			/// @DnDVersion : 1
+			/// @DnDHash : 4C57BBC9
+			/// @DnDParent : 6C17A47F
+			exit;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -412,6 +484,12 @@ if(lightning == 0)
 			/// @DnDArgument : "expr_relative" "1"
 			/// @DnDArgument : "var" "hp"
 			hp += -1;
+		
+			/// @DnDAction : YoYo Games.Common.Exit_Event
+			/// @DnDVersion : 1
+			/// @DnDHash : 5753F5EA
+			/// @DnDParent : 281332C3
+			exit;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable

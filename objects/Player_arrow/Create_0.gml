@@ -1,8 +1,36 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Rooms.Get_Current_Room
 /// @DnDVersion : 1
-/// @DnDHash : 48B836F4
-/// @DnDArgument : "var" "useless"
-useless = 0;
+/// @DnDHash : 4D89D729
+/// @DnDArgument : "var" "room"
+room = room;
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 61BB8F49
+/// @DnDArgument : "var" "room"
+if(room == 0)
+{
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 0AC14EDE
+	/// @DnDParent : 61BB8F49
+	/// @DnDArgument : "speed" "3"
+	/// @DnDArgument : "type" "1"
+	hspeed = 3;
+
+	/// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 5904E02F
+	/// @DnDParent : 61BB8F49
+	/// @DnDArgument : "direction" "0"
+	direction = 0;
+
+	/// @DnDAction : YoYo Games.Common.Exit_Event
+	/// @DnDVersion : 1
+	/// @DnDHash : 32A40F97
+	/// @DnDParent : 61BB8F49
+	exit;
+}
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1

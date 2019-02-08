@@ -1,3 +1,23 @@
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6224279E
+/// @DnDArgument : "var" "room"
+if(room == 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 685B34C3
+	/// @DnDParent : 6224279E
+	sprite_index = noone;
+	image_index = 0;
+
+	/// @DnDAction : YoYo Games.Common.Exit_Event
+	/// @DnDVersion : 1
+	/// @DnDHash : 11F07064
+	/// @DnDParent : 6224279E
+	exit;
+}
+
 /// @DnDAction : YoYo Games.Movement.Set_Friction
 /// @DnDVersion : 1
 /// @DnDHash : 5B791A13

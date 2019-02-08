@@ -67,3 +67,33 @@ global.crouching = 0;
 /// @DnDArgument : "loop" "1"
 /// @DnDSaveInfo : "soundid" "06aa968c-b60c-4ab1-9d30-6bce98473c93"
 audio_play_sound(Archer_shot_music, 0, 1);
+
+/// @DnDAction : YoYo Games.Rooms.Get_Current_Room
+/// @DnDVersion : 1
+/// @DnDHash : 2A706CB4
+/// @DnDArgument : "var" "room"
+room = room;
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3A674B65
+/// @DnDArgument : "var" "room"
+if(room == 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 0FA715D5
+	/// @DnDParent : 3A674B65
+	sprite_index = noone;
+	image_index = 0;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 439E8988
+	/// @DnDInput : 2
+	/// @DnDParent : 3A674B65
+	/// @DnDArgument : "var" "grav"
+	/// @DnDArgument : "var_1" "movespeed"
+	grav = 0;
+	movespeed = 0;
+}

@@ -1,3 +1,29 @@
+/// @DnDAction : YoYo Games.Rooms.Get_Current_Room
+/// @DnDVersion : 1
+/// @DnDHash : 42A4C0DE
+/// @DnDArgument : "var" "room"
+room = room;
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 172A6C2E
+/// @DnDArgument : "var" "room"
+if(room == 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 7D5E8E98
+	/// @DnDParent : 172A6C2E
+	sprite_index = noone;
+	image_index = 0;
+
+	/// @DnDAction : YoYo Games.Common.Exit_Event
+	/// @DnDVersion : 1
+	/// @DnDHash : 135B207F
+	/// @DnDParent : 172A6C2E
+	exit;
+}
+
 /// @DnDAction : YoYo Games.Movement.Set_Friction
 /// @DnDVersion : 1
 /// @DnDHash : 6299E7F8
