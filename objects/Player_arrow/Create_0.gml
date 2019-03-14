@@ -32,6 +32,35 @@ if(room == 0)
 	exit;
 }
 
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 77BAEBCA
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "3"
+if(room == 3)
+{
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 120B77A2
+	/// @DnDParent : 77BAEBCA
+	/// @DnDArgument : "speed" "3"
+	/// @DnDArgument : "type" "1"
+	hspeed = 3;
+
+	/// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 55A092B0
+	/// @DnDParent : 77BAEBCA
+	/// @DnDArgument : "direction" "0"
+	direction = 0;
+
+	/// @DnDAction : YoYo Games.Common.Exit_Event
+	/// @DnDVersion : 1
+	/// @DnDHash : 10C0F97E
+	/// @DnDParent : 77BAEBCA
+	exit;
+}
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
 /// @DnDHash : 59D99D18
