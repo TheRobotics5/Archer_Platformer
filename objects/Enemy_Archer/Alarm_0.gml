@@ -11,8 +11,8 @@ if(angled == 1)
 	/// @DnDParent : 6A8DCB68
 	/// @DnDArgument : "var" "archer_location_y"
 	/// @DnDArgument : "op" "2"
-	/// @DnDArgument : "value" "self_y"
-	if(archer_location_y > self_y)
+	/// @DnDArgument : "value" "self_y+32"
+	if(archer_location_y > self_y+32)
 	{
 		/// @DnDAction : YoYo Games.Common.Execute_Code
 		/// @DnDVersion : 1
@@ -31,8 +31,8 @@ if(angled == 1)
 	/// @DnDParent : 6A8DCB68
 	/// @DnDArgument : "var" "archer_location_y"
 	/// @DnDArgument : "op" "1"
-	/// @DnDArgument : "value" "self_y"
-	if(archer_location_y < self_y)
+	/// @DnDArgument : "value" "self_y-32"
+	if(archer_location_y < self_y-32)
 	{
 		/// @DnDAction : YoYo Games.Common.Execute_Code
 		/// @DnDVersion : 1
@@ -43,6 +43,36 @@ if(angled == 1)
 		arrow.speed = 12;
 		arrow.direction = 160;
 		arrow.image_angle = 160;
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 67EEB3A5
+	/// @DnDParent : 6A8DCB68
+	/// @DnDArgument : "var" "archer_location_y"
+	/// @DnDArgument : "op" "1"
+	/// @DnDArgument : "value" "self_y+32"
+	if(archer_location_y < self_y+32)
+	{
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 40FD60BC
+		/// @DnDParent : 67EEB3A5
+		/// @DnDArgument : "var" "archer_location_y"
+		/// @DnDArgument : "op" "2"
+		/// @DnDArgument : "value" "self_y-32"
+		if(archer_location_y > self_y-32)
+		{
+			/// @DnDAction : YoYo Games.Common.Execute_Code
+			/// @DnDVersion : 1
+			/// @DnDHash : 39D448E0
+			/// @DnDParent : 40FD60BC
+			/// @DnDArgument : "code" "arrow = instance_create_layer(x, y-50, "Projectiles", Danger_arrow);$(13_10)arrow.speed = 12;$(13_10)arrow.direction = 180;$(13_10)arrow.image_angle = 180;$(13_10)"
+			arrow = instance_create_layer(x, y-50, "Projectiles", Danger_arrow);
+			arrow.speed = 12;
+			arrow.direction = 180;
+			arrow.image_angle = 180;
+		}
 	}
 }
 
