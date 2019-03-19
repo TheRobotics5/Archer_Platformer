@@ -227,14 +227,11 @@ if(lightning == 1)
 			/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 			/// @DnDVersion : 1
 			/// @DnDHash : 43208F6C
-			/// @DnDApplyTo : f0ffa4b7-3cb6-492b-8abf-ebb5071e6ed9
 			/// @DnDParent : 4A0D1BB8
 			/// @DnDArgument : "score" "75"
 			/// @DnDArgument : "score_relative" "1"
-			with(scoreboard) {
 			if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 			__dnd_score += real(75);
-			}
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -253,11 +250,11 @@ if(lightning == 1)
 			/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 			/// @DnDVersion : 1
 			/// @DnDHash : 629C9102
-			/// @DnDApplyTo : f0ffa4b7-3cb6-492b-8abf-ebb5071e6ed9
+			/// @DnDApplyTo : 474bbde4-d9d4-406f-a310-578743826f49
 			/// @DnDParent : 6B82FF17
 			/// @DnDArgument : "score" "75"
 			/// @DnDArgument : "score_relative" "1"
-			with(scoreboard) {
+			with(Scoreboard) {
 			if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 			__dnd_score += real(75);
 			}
@@ -280,11 +277,11 @@ if(lightning == 1)
 		/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 		/// @DnDVersion : 1
 		/// @DnDHash : 711BDA3F
-		/// @DnDApplyTo : f0ffa4b7-3cb6-492b-8abf-ebb5071e6ed9
+		/// @DnDApplyTo : 474bbde4-d9d4-406f-a310-578743826f49
 		/// @DnDParent : 0E0378D2
 		/// @DnDArgument : "score" "5"
 		/// @DnDArgument : "score_relative" "1"
-		with(scoreboard) {
+		with(Scoreboard) {
 		if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 		__dnd_score += real(5);
 		}
@@ -508,11 +505,11 @@ if(lightning == 0)
 			/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 			/// @DnDVersion : 1
 			/// @DnDHash : 66D83866
-			/// @DnDApplyTo : f0ffa4b7-3cb6-492b-8abf-ebb5071e6ed9
+			/// @DnDApplyTo : 474bbde4-d9d4-406f-a310-578743826f49
 			/// @DnDParent : 5669628E
 			/// @DnDArgument : "score" "75"
 			/// @DnDArgument : "score_relative" "1"
-			with(scoreboard) {
+			with(Scoreboard) {
 			if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 			__dnd_score += real(75);
 			}
@@ -564,11 +561,11 @@ if(lightning == 0)
 			/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 			/// @DnDVersion : 1
 			/// @DnDHash : 673A0C93
-			/// @DnDApplyTo : f0ffa4b7-3cb6-492b-8abf-ebb5071e6ed9
+			/// @DnDApplyTo : 474bbde4-d9d4-406f-a310-578743826f49
 			/// @DnDParent : 780645CE
 			/// @DnDArgument : "score" "5"
 			/// @DnDArgument : "score_relative" "1"
-			with(scoreboard) {
+			with(Scoreboard) {
 			if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 			__dnd_score += real(5);
 			}

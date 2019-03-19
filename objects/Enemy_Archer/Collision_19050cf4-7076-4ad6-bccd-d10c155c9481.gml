@@ -119,11 +119,11 @@ if(lightning == 1)
 			/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 			/// @DnDVersion : 1
 			/// @DnDHash : 41869861
-			/// @DnDApplyTo : f0ffa4b7-3cb6-492b-8abf-ebb5071e6ed9
+			/// @DnDApplyTo : 474bbde4-d9d4-406f-a310-578743826f49
 			/// @DnDParent : 5779FCA5
 			/// @DnDArgument : "score" "50"
 			/// @DnDArgument : "score_relative" "1"
-			with(scoreboard) {
+			with(Scoreboard) {
 			if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 			__dnd_score += real(50);
 			}
@@ -145,11 +145,11 @@ if(lightning == 1)
 			/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 			/// @DnDVersion : 1
 			/// @DnDHash : 692D6636
-			/// @DnDApplyTo : f0ffa4b7-3cb6-492b-8abf-ebb5071e6ed9
+			/// @DnDApplyTo : 474bbde4-d9d4-406f-a310-578743826f49
 			/// @DnDParent : 23819BFA
 			/// @DnDArgument : "score" "50"
 			/// @DnDArgument : "score_relative" "1"
-			with(scoreboard) {
+			with(Scoreboard) {
 			if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 			__dnd_score += real(50);
 			}
@@ -210,11 +210,11 @@ if(lightning == 1)
 			/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 			/// @DnDVersion : 1
 			/// @DnDHash : 1D8A6EBB
-			/// @DnDApplyTo : f0ffa4b7-3cb6-492b-8abf-ebb5071e6ed9
+			/// @DnDApplyTo : 474bbde4-d9d4-406f-a310-578743826f49
 			/// @DnDParent : 4A3586DC
 			/// @DnDArgument : "score" "15"
 			/// @DnDArgument : "score_relative" "1"
-			with(scoreboard) {
+			with(Scoreboard) {
 			if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 			__dnd_score += real(15);
 			}
@@ -236,11 +236,11 @@ if(lightning == 1)
 			/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 			/// @DnDVersion : 1
 			/// @DnDHash : 56A60CC3
-			/// @DnDApplyTo : f0ffa4b7-3cb6-492b-8abf-ebb5071e6ed9
+			/// @DnDApplyTo : 474bbde4-d9d4-406f-a310-578743826f49
 			/// @DnDParent : 5675D7D4
 			/// @DnDArgument : "score" "15"
 			/// @DnDArgument : "score_relative" "1"
-			with(scoreboard) {
+			with(Scoreboard) {
 			if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 			__dnd_score += real(15);
 			}
@@ -293,11 +293,11 @@ if(lightning == 1)
 		/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 		/// @DnDVersion : 1
 		/// @DnDHash : 6C5422EB
-		/// @DnDApplyTo : f0ffa4b7-3cb6-492b-8abf-ebb5071e6ed9
+		/// @DnDApplyTo : 474bbde4-d9d4-406f-a310-578743826f49
 		/// @DnDParent : 46EAE957
 		/// @DnDArgument : "score" "10"
 		/// @DnDArgument : "score_relative" "1"
-		with(scoreboard) {
+		with(Scoreboard) {
 		if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 		__dnd_score += real(10);
 		}
@@ -319,11 +319,11 @@ if(lightning == 1)
 		/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 		/// @DnDVersion : 1
 		/// @DnDHash : 0DFB9A31
-		/// @DnDApplyTo : f0ffa4b7-3cb6-492b-8abf-ebb5071e6ed9
+		/// @DnDApplyTo : 474bbde4-d9d4-406f-a310-578743826f49
 		/// @DnDParent : 4B4187A4
 		/// @DnDArgument : "score" "10"
 		/// @DnDArgument : "score_relative" "1"
-		with(scoreboard) {
+		with(Scoreboard) {
 		if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 		__dnd_score += real(10);
 		}
@@ -465,14 +465,11 @@ if(lightning == 0)
 			/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 			/// @DnDVersion : 1
 			/// @DnDHash : 1BC71BE0
-			/// @DnDApplyTo : f0ffa4b7-3cb6-492b-8abf-ebb5071e6ed9
 			/// @DnDParent : 5DB8A20F
 			/// @DnDArgument : "score" "50"
 			/// @DnDArgument : "score_relative" "1"
-			with(scoreboard) {
 			if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 			__dnd_score += real(50);
-			}
 		}
 	}
 
@@ -583,11 +580,11 @@ if(lightning == 0)
 		/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 		/// @DnDVersion : 1
 		/// @DnDHash : 2B8E322E
-		/// @DnDApplyTo : f0ffa4b7-3cb6-492b-8abf-ebb5071e6ed9
+		/// @DnDApplyTo : 474bbde4-d9d4-406f-a310-578743826f49
 		/// @DnDParent : 741544D8
 		/// @DnDArgument : "score" "10"
 		/// @DnDArgument : "score_relative" "1"
-		with(scoreboard) {
+		with(Scoreboard) {
 		if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 		__dnd_score += real(10);
 		}

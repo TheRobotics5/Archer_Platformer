@@ -29,11 +29,11 @@ if(chained == 1)
 	/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 	/// @DnDVersion : 1
 	/// @DnDHash : 71ACA48A
-	/// @DnDApplyTo : f0ffa4b7-3cb6-492b-8abf-ebb5071e6ed9
+	/// @DnDApplyTo : 474bbde4-d9d4-406f-a310-578743826f49
 	/// @DnDParent : 6048A39D
 	/// @DnDArgument : "score" "10"
 	/// @DnDArgument : "score_relative" "1"
-	with(scoreboard) {
+	with(Scoreboard) {
 	if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 	__dnd_score += real(10);
 	}

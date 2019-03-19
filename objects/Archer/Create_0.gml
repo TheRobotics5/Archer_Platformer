@@ -63,10 +63,10 @@ global.crouching = 0;
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1
 /// @DnDHash : 00F50A43
-/// @DnDArgument : "soundid" "Archer_shot_music"
+/// @DnDArgument : "soundid" "Tutorial_area_music"
 /// @DnDArgument : "loop" "1"
-/// @DnDSaveInfo : "soundid" "06aa968c-b60c-4ab1-9d30-6bce98473c93"
-audio_play_sound(Archer_shot_music, 0, 1);
+/// @DnDSaveInfo : "soundid" "f52a900a-d5ea-426c-9f1d-ca9e5e1f498f"
+audio_play_sound(Tutorial_area_music, 0, 1);
 
 /// @DnDAction : YoYo Games.Rooms.Get_Current_Room
 /// @DnDVersion : 1

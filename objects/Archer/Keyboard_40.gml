@@ -39,20 +39,15 @@ if(golden == 1)
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 4C3F969B
-	/// @DnDBreak : 1
-
+	/// @DnDApplyTo : 7ebaba8b-f3ea-478d-81d1-b22e2259dc62
 	/// @DnDParent : 126F682D
 	/// @DnDArgument : "imageind" "2"
 	/// @DnDArgument : "spriteind" "Crouch"
 	/// @DnDSaveInfo : "spriteind" "575373f4-0ee3-4335-a143-f8ab7b05ac09"
+	with(Archer) {
 	sprite_index = Crouch;
 	image_index = 2;
-
-	/// @DnDAction : YoYo Games.Common.Exit_Event
-	/// @DnDVersion : 1
-	/// @DnDHash : 489C80B2
-	/// @DnDParent : 126F682D
-	exit;
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -65,20 +60,15 @@ if(blue == 1)
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 5B485056
-	/// @DnDBreak : 1
-
+	/// @DnDApplyTo : 7ebaba8b-f3ea-478d-81d1-b22e2259dc62
 	/// @DnDParent : 1EE0C9A9
 	/// @DnDArgument : "imageind" "1"
 	/// @DnDArgument : "spriteind" "Crouch"
 	/// @DnDSaveInfo : "spriteind" "575373f4-0ee3-4335-a143-f8ab7b05ac09"
+	with(Archer) {
 	sprite_index = Crouch;
 	image_index = 1;
-
-	/// @DnDAction : YoYo Games.Common.Exit_Event
-	/// @DnDVersion : 1
-	/// @DnDHash : 12F8A112
-	/// @DnDParent : 1EE0C9A9
-	exit;
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

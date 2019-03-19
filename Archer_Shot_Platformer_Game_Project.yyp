@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "06aa968c-b60c-4ab1-9d30-6bce98473c93",
-            "Value": {
-                "id": "e956bd67-fe59-4414-a304-2c7fcf92e9ef",
-                "resourcePath": "sounds\\Archer_shot_music\\Archer_shot_music.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "06b17285-fcde-4375-89da-972eed45705c",
             "Value": {
                 "id": "800ba06f-6e66-4e98-ba3f-134855f1a787",
@@ -100,6 +92,14 @@
                 "id": "a2441e22-1aa3-44c9-af41-427f76f58b54",
                 "resourcePath": "tilesets\\Words\\Words.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "1a906bcf-f2fb-4409-bb2c-6662fe40ff24",
+            "Value": {
+                "id": "92f2ed59-aa79-4aa4-a749-21b30430a5d0",
+                "resourcePath": "sounds\\open_area_music\\open_area_music.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -164,6 +164,14 @@
                 "id": "60ed0bca-03b2-4698-80e0-5f6499c12d9e",
                 "resourcePath": "sprites\\BabyDragon\\BabyDragon.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "474bbde4-d9d4-406f-a310-578743826f49",
+            "Value": {
+                "id": "e1de17f0-1818-4298-86ef-0939990356ee",
+                "resourcePath": "objects\\Scoreboard\\Scoreboard.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -391,6 +399,14 @@
             }
         },
         {
+            "Key": "b6817deb-00cd-4d2f-b327-d283e71e655c",
+            "Value": {
+                "id": "3ec46ae0-684e-493b-95b1-07006fd6897d",
+                "resourcePath": "sounds\\cave_music\\cave_music.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b6b3e995-89ba-4442-a9a2-e566dab2d51d",
             "Value": {
                 "id": "cecc90e5-b004-4ded-9870-9c381b070b5f",
@@ -495,19 +511,19 @@
             }
         },
         {
-            "Key": "f0ffa4b7-3cb6-492b-8abf-ebb5071e6ed9",
-            "Value": {
-                "id": "0e21670d-417c-4301-aa77-3c5a85591faa",
-                "resourcePath": "objects\\scoreboard\\scoreboard.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "f339900e-6187-4d7c-bf39-728827d38ad0",
             "Value": {
                 "id": "f93bf087-5e69-4ea5-a9a3-1ca573239c9d",
                 "resourcePath": "sprites\\Arrow\\Arrow.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f52a900a-d5ea-426c-9f1d-ca9e5e1f498f",
+            "Value": {
+                "id": "84ff828b-cd3b-4a04-96cf-04ee155c81e4",
+                "resourcePath": "sounds\\Tutorial_area_music\\Tutorial_area_music.yy",
+                "resourceType": "GMSound"
             }
         },
         {
