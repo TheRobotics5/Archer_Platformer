@@ -11,8 +11,8 @@ if(angled == 1)
 	/// @DnDParent : 6A8DCB68
 	/// @DnDArgument : "var" "archer_location_y"
 	/// @DnDArgument : "op" "2"
-	/// @DnDArgument : "value" "self_y+32"
-	if(archer_location_y > self_y+32)
+	/// @DnDArgument : "value" "self_y+64"
+	if(archer_location_y > self_y+64)
 	{
 		/// @DnDAction : YoYo Games.Common.Execute_Code
 		/// @DnDVersion : 1
@@ -31,8 +31,8 @@ if(angled == 1)
 	/// @DnDParent : 6A8DCB68
 	/// @DnDArgument : "var" "archer_location_y"
 	/// @DnDArgument : "op" "1"
-	/// @DnDArgument : "value" "self_y-32"
-	if(archer_location_y < self_y-32)
+	/// @DnDArgument : "value" "self_y-64"
+	if(archer_location_y < self_y-64)
 	{
 		/// @DnDAction : YoYo Games.Common.Execute_Code
 		/// @DnDVersion : 1
@@ -51,8 +51,8 @@ if(angled == 1)
 	/// @DnDParent : 6A8DCB68
 	/// @DnDArgument : "var" "archer_location_y"
 	/// @DnDArgument : "op" "1"
-	/// @DnDArgument : "value" "self_y+32"
-	if(archer_location_y < self_y+32)
+	/// @DnDArgument : "value" "self_y+64"
+	if(archer_location_y < self_y+64)
 	{
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -60,8 +60,8 @@ if(angled == 1)
 		/// @DnDParent : 67EEB3A5
 		/// @DnDArgument : "var" "archer_location_y"
 		/// @DnDArgument : "op" "2"
-		/// @DnDArgument : "value" "self_y-32"
-		if(archer_location_y > self_y-32)
+		/// @DnDArgument : "value" "self_y-64"
+		if(archer_location_y > self_y-64)
 		{
 			/// @DnDAction : YoYo Games.Common.Execute_Code
 			/// @DnDVersion : 1
